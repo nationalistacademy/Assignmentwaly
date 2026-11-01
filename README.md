@@ -1,16 +1,16 @@
-# Assignmentwaly — Free Study & Research Tools
+# Assignmentwaly — Assignment Articles & Student Resources
 
-Assignmentwaly is a tools-first learning project. The public site is designed around free browser-based utilities and original educational articles. Existing repository history is preserved.
+Assignmentwaly is the assignment-focused publishing site in a three-site setup. It publishes original assignment articles, solved examples, study guidance and related student resources. Student-facing AIOU tools are hosted on AIOU Coaching; Assignmentwaly links visitors there rather than maintaining a separate duplicate tools portal.
 
 ## Product focus
-- Free student-facing tools that work without paid AI APIs or mandatory accounts.
+- Assignment-focused articles, solved examples and independent study guidance.
 - Original, source-checked educational and research articles.
-- A working free companion resource for each article before publication.
+- Link each relevant article to a useful free companion tool hosted on AIOU Coaching.
 - Mobile-first accessibility, privacy-conscious browser tools, and human editorial approval.
 
 ## Current working features
-- Tools-first responsive homepage at `index.html`.
-- Searchable tools directory, mobile navigation and scroll progress indicator.
+- Responsive homepage at `index.html` with clear links to the AIOU Coaching tools hub.
+- Assignment article links, tool discovery cards, mobile navigation and scroll progress indicator.
 - **Assignment Builder** at `tools/assignment-builder.html`: assignment metadata, question/answer blocks, Urdu/English writing direction, word count, local browser draft save, TXT export and print/save PDF.
 - The Assignment Builder stores drafts in the browser's local storage; it does not upload draft text to a server.
 
