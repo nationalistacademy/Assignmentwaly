@@ -32,6 +32,18 @@ Help learners find trustworthy educational resources, develop practical skills, 
 - The current page is an informational starter, not a live legal-consultancy or advocate-booking service.
 - Run the dependency-free smoke check with `node scripts/check-static-site.mjs` from the repository root.
 
+
+## Deployment — GitHub Pages
+A GitHub Actions workflow is included at `.github/workflows/deploy-pages.yml`. It runs the static-site smoke check and deploys the repository root to GitHub Pages on pushes to `main` and manual dispatch.
+
+### One-time repository setting
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, choose **GitHub Actions** as the source.
+3. Open **Actions** and check the **Deploy Assignmentwaly to GitHub Pages** workflow.
+4. After a successful run, use the published URL shown in the workflow's `github-pages` environment.
+
+The expected default GitHub Pages address is `https://nationalistacademy.github.io/taleemwaly/`, provided Pages is enabled for this repository and the deployment succeeds. A custom domain is not configured by this change.
+
 ## Project status
 This repository is an evolving project. Features marked as planned are not yet live services. Do not infer that a service is available merely because it appears in the roadmap.
 
