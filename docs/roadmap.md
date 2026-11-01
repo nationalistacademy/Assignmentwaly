@@ -1,37 +1,28 @@
-# Product roadmap
+# Assignmentwaly product roadmap
 
-## Phase 0 — Foundation
-- [x] Document the mission and service boundaries.
-- [x] Set an academic integrity baseline.
-- [x] Set a privacy and data-handling baseline.
-- [x] Document the legal-services launch gate.
-- [ ] Inspect and map the existing application structure before code changes.
-- [ ] Identify current deployment, build, and test commands.
+## Product rule
+Tools first, articles second. Each article should be paired with a free, tested tool, worksheet, checklist, calculator or practice resource before publication.
 
-## Phase 1 — Trustworthy education resources
-- [ ] Responsive service and resource navigation.
-- [ ] Searchable original learning resources.
-- [ ] AIOU course and resource taxonomy with official-source links.
-- [ ] Practice quiz and study planner.
-- [ ] Accessibility, mobile performance, and basic SEO checks.
+## Phase 1 — Student tools
+- [x] Tools-first responsive homepage and searchable directory.
+- [x] Free browser-based Assignment Builder.
+- [ ] Test Assignment Builder on mobile/desktop and refine accessibility.
+- [ ] Study Planner with weekly schedule and local progress checklist.
+- [ ] Citation Helper with source-verification reminders.
+- [ ] MCQ Practice Maker with topic practice and explanations.
 
-## Phase 2 — Research and career support
-- [ ] Research skills guides and citation help.
-- [ ] CV and cover-letter feedback workflow.
-- [ ] Clear disclaimers and learner ownership controls.
+## Phase 2 — Article system
+- [x] Define original article and companion-resource publishing gate.
+- [x] Define supervised multi-agent roles and human approval.
+- [ ] Build a reusable article brief and source register template.
+- [ ] Add a public tool-to-article linking pattern.
+- [ ] Add correction history and visible review dates for changeable content.
 
-## Phase 3 — Legal information library
-- [ ] Jurisdiction-aware Pakistan legal information pages.
-- [ ] Primary-source citations and review dates.
-- [ ] Qualified legal review workflow and correction history.
-- [ ] No case-specific advice or document intake at this stage.
-
-## Phase 4 — Advocate referral pilot (separate approval required)
-- [ ] Confirm applicable federal and provincial laws and professional rules with qualified counsel.
-- [ ] Verify advocate enrolment and scope.
-- [ ] Conflict checks, informed consent, confidentiality, and secure intake.
-- [ ] Transparent provider identity, fees, complaint handling, and referral terms.
-- [ ] Launch only after legal and security sign-off.
+## Phase 3 — Quality and growth
+- [ ] Mobile performance and accessibility checks in CI.
+- [ ] Structured data and metadata validation where appropriate.
+- [ ] AIOU course/resource taxonomy backed by official sources.
+- [ ] Privacy review before adding accounts, cloud sync, uploads or analytics.
 
 ## Release gates
-Do not deploy a new feature until it has a documented user need, mobile and accessibility checks, security and privacy review appropriate to its data, tests for its critical path, and accurate public claims and support documentation.
+Do not publish an article before its companion resource is functional and tested, sources are verified, content is meaningfully original, mobile/accessibility checks pass, and a human editor approves the package. Do not add paid APIs as a requirement for core tools.
