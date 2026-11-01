@@ -1,5 +1,7 @@
 # Assignmentwaly publishing roadmap
 
+**Primary mission:** Build a trustworthy, original, mobile-first educational resource for AIOU learners across Pakistan and make the live Blogger site genuinely ready for AdSense review. Approval and rankings are not guaranteed. See [the public-site audit](ADSENSE-READINESS-AUDIT.md).
+
 ## Product rule
 Assignmentwaly is the assignment-article website. AIOU Coaching is the destination for AIOU student tools, study support and guess papers. Assignmentwaly should link visitors to relevant AIOU Coaching resources rather than host duplicate public tools.
 
