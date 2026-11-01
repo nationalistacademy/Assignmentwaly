@@ -8,8 +8,8 @@
 
 - **149 posts** captured from the public Atom JSON feed (102 in first feed response + 47 in the second).
 - **41 static pages** captured from the public pages feed.
-- **190 individual HTML files** are stored under `content/posts/` and `content/pages/`.
-- Each file preserves the original post/page body HTML and includes source URL, title, publication/update dates, labels and author metadata in an HTML comment.
+- All **190 entries** are preserved in four combined standalone HTML archive documents under `archive/blogger-export/`: three post batches (50, 50 and 49 entries) and one static-pages file (41 entries).
+- Each archived entry preserves its original Blogger content HTML and includes source URL, title, publication/update dates, labels and author metadata in the surrounding HTML.
 - [Complete URL and metadata manifest](../archive/blogger-export/manifest.json).
 
 This archive is a public content-body snapshot, not a full Blogger account export. It does not contain theme XML, private drafts, comments, Blogger settings, page-level template chrome, or binary copies of Blogger-hosted images. Image URLs are retained in the HTML. A separate Blogger dashboard export should be kept by the owner as an additional recovery copy.
