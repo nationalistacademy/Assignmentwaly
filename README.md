@@ -61,3 +61,13 @@ Assignmentwaly tools support learning and independent work. Learners remain resp
 ## Organization and legal information
 
 This repository is part of an independently operated project ecosystem. The sole-proprietor organization profile and policy drafts are maintained in [organization/](organization/README.md). Nationalist Academy is operated by Faiez Mehmood in Karachi, Pakistan; it is not an incorporated company, NGO, charity, university or government institution. The policy documents should be reconciled with the actual settings and data practices of each live website before publication.
+
+
+## Blogger source archive and expansion plan
+
+- [Blogger content inventory and backup audit](docs/BLOGGER-CONTENT-INVENTORY.md)
+- [SEO + GEO roadmap](docs/SEO-GEO-ROADMAP.md)
+- [Student and visitor needs roadmap](docs/STUDENT-NEEDS-ROADMAP.md)
+- [Public Blogger HTML archive](archive/blogger-export/README.md)
+
+The repository now contains a read-only snapshot of the 149 public posts and 41 static pages discovered through Blogger feeds. Live Blogger pages/theme/DNS remain unchanged.

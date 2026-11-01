@@ -1,0 +1,510 @@
+<!-- Blogger source metadata
+{"source_url":"https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html","title":"Admissions","published":"2026-03-15T08:11:00.000+05:00","updated":"2026-10-24T14:20:08.031+05:00","labels":[],"author":"QuickSupport"}
+-->
+<!-- ═══════════════════════════════════════════════════════════════
+     AIOU ADMISSIONS 2026 & HELPDESK GUIDE
+     Fully Responsive Tables & Clean Layout for Blogger
+     ═══════════════════════════════════════════════════════════════ -->
+
+<div class="aiou-admission-guide">
+
+<style>
+/* ─── Scoped CSS for AIOU Guide ─── */
+.aiou-admission-guide {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #334155;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Headings */
+.aiou-admission-guide h1 {
+  background: linear-gradient(135deg, #1e3c72, #2b6e9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #1e3c72; /* Fallback */
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 10px 0 16px;
+}
+
+.aiou-admission-guide h2 {
+  border-left: 5px solid #2b6e9e;
+  color: #0f172a;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 35px 0 16px;
+  padding-left: 15px;
+  line-height: 1.4;
+}
+
+.aiou-admission-guide h3 {
+  color: #1e4a76;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 24px 0 12px;
+}
+
+/* Meta Info */
+.aiou-meta {
+  border-bottom: 1px solid #e2e8f0;
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+}
+
+/* Callout Boxes */
+.aiou-box {
+  background: #f8fafc;
+  border-left: 4px solid #2b6e9e;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 16px 20px;
+  color: #334155;
+}
+
+.aiou-box.warning {
+  background: #fffbeb;
+  border-left-color: #f59e0b;
+  color: #92400e;
+}
+
+.aiou-box.success {
+  background: #f0fdf4;
+  border-left-color: #22c55e;
+  color: #166534;
+}
+
+/* Links / Pills */
+.aiou-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.aiou-btn {
+  background: #1e3c72;
+  border-radius: 40px;
+  color: #ffffff !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  text-decoration: none !important;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.aiou-btn:hover {
+  background: #2b6e9e;
+}
+
+/* Inline Links */
+.aiou-admission-guide a.inline-link {
+  color: #2b6e9e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.aiou-admission-guide a.inline-link:hover {
+  text-decoration: underline;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE TABLES (The core requirement)
+   ═══════════════════════════════════════════════════════════════ */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.aiou-admission-guide table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  min-width: 500px; /* Forces table to scroll rather than squish on mobile */
+}
+
+.aiou-admission-guide th {
+  background: #1e3c72;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 15px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.aiou-admission-guide td {
+  padding: 12px 15px;
+  border-top: 1px solid #e2e8f0;
+  vertical-align: middle;
+}
+
+.aiou-admission-guide tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HELPDESK CARDS (Responsive Grid)
+   ═══════════════════════════════════════════════════════════════ */
+.helpdesk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.helpdesk-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.helpdesk-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.helpdesk-card .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.helpdesk-card strong {
+  display: block;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.helpdesk-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.helpdesk-card small {
+  display: block;
+  margin-top: 8px;
+  color: #94a3b8;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+/* FAQ Boxes */
+.faq-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 16px 20px;
+}
+
+.faq-item strong {
+  display: block;
+  color: #1e3c72;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+  .aiou-admission-guide h1 { font-size: 1.6rem; }
+  .aiou-admission-guide h2 { font-size: 1.25rem; }
+  .helpdesk-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     POST CONTENT STARTS HERE
+     ═══════════════════════════════════════════════════════════════ -->
+
+<h1>🎓 AIOU Admissions 2026 &amp; Helpdesk Guide: How to Apply, Fee Structure &amp; Support</h1>
+
+<p class="aiou-meta">✍️ By Assignmentwaly | 📅 Updated: April 14, 2026 | ⏱️ 10 min read | 🎓 For AIOU Aspirants &amp; Students</p>
+
+<p><strong>Your complete roadmap to the AIOU admission process and official helpdesk.</strong> Allama Iqbal Open University (AIOU) announces admissions twice a year (Spring &amp; Autumn) for Matric, Intermediate, Bachelor, BS, MA/MSc, and PhD programs. Understanding the admission process, fee deadlines, and helpdesk contacts is essential for a smooth enrollment. This guide covers everything you need: from online application to tracking your admission status and contacting AIOU support.</p>
+
+<div class="aiou-box">
+  <strong>📌 Quick Navigation:</strong> 
+  <a class="inline-link" href="#dates">Important Dates</a> | 
+  <a class="inline-link" href="#apply">How to Apply</a> | 
+  <a class="inline-link" href="#fee">Fee Structure</a> | 
+  <a class="inline-link" href="#programs">Programs</a> | 
+  <a class="inline-link" href="#helpdesk">Helpdesk</a> | 
+  <a class="inline-link" href="#faq">FAQs</a>
+</div>
+
+<!-- INTERNAL LINKS -->
+<h2>📌 Explore More Resources on Assignmentwaly</h2>
+<div class="aiou-links">
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-assignments.html" class="aiou-btn">📚 Solved Assignments</a>
+  <a href="https://assignmentwaly.blogspot.com/p/unsolved-assignments.html" class="aiou-btn">📋 Unsolved Assignments</a>
+  <a href="https://assignmentwaly.blogspot.com/2026/04/blog-post.html" class="aiou-btn">📖 Guess Papers 2026</a>
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-ba-bcom-original-books-pdf.html" class="aiou-btn">📘 BA / B.Com Books</a>
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-fa-icom-original-books-pdf.html" class="aiou-btn">📘 FA / I.Com Books</a>
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-matric-download-pdf-books-original.html" class="aiou-btn">📘 Matric Books</a>
+  <a href="https://assignmentwaly.blogspot.com/p/contact.html" class="aiou-btn">📞 Contact for Help</a>
+</div>
+
+<!-- IMPORTANT DATES -->
+<h2 id="dates">📌 AIOU Admissions 2026 – Important Dates</h2>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Semester</th>
+        <th>Admission Announcement</th>
+        <th>Last Date</th>
+        <th>Late Fee Last Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Spring 2026</strong></td>
+        <td>January 15, 2026</td>
+        <td>February 28, 2026</td>
+        <td>March 15, 2026</td>
+      </tr>
+      <tr>
+        <td><strong>Autumn 2026</strong></td>
+        <td>July 20, 2026</td>
+        <td>September 10, 2026</td>
+        <td>September 25, 2026</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>📅 Phase 2 – Admission Spring 2026 (Bachelor, Master, B.Ed, Post Graduate)</h2>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Admission Start Date</td>
+        <td>23-February-2026</td>
+      </tr>
+      <tr>
+        <td>Admission Last Date</td>
+        <td>25-March-2026</td>
+      </tr>
+      <tr>
+        <td>Last Date With Late Fee</td>
+        <td>05-April-2026</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- HOW TO APPLY -->
+<h2 id="apply">📝 How to Apply Online – Step by Step</h2>
+<div class="aiou-box">
+  <ol style="margin: 0; padding-left: 20px;">
+    <li><strong>Visit the official AIOU admission portal:</strong> <a href="https://admissions.aiou.edu.pk" class="inline-link" target="_blank" rel="nofollow">admissions.aiou.edu.pk</a></li>
+    <li><strong>Create an account</strong> using your CNIC/B-Form number and email.</li>
+    <li><strong>Select your program</strong> (FA, I.Com, BA, BS, etc.) and fill the online form.</li>
+    <li><strong>Upload scanned documents</strong> (photograph, CNIC, previous degrees).</li>
+    <li><strong>Pay admission fee</strong> via 1Bill, EasyPaisa, JazzCash, or bank challan.</li>
+    <li><strong>Submit the form</strong> and print the admission slip for future reference.</li>
+  </ol>
+</div>
+
+<!-- FEE STRUCTURE -->
+<h2 id="fee">💰 Fee Structure &amp; Payment Methods</h2>
+<p>AIOU fees vary by program. For Intermediate (FA/I.Com) the approximate fee per semester is <strong>PKR 4,500–6,000</strong>. You can pay via ATM, mobile banking, EasyPaisa, JazzCash, or any HBL/UBL branch. After payment, upload the proof on the admission portal.</p>
+
+<div class="aiou-box warning">
+  <strong>⚠️ Note:</strong> Late fee submission results in a fine of PKR 500–1000. Always keep the payment receipt safe.
+</div>
+
+<!-- REQUIRED DOCUMENTS -->
+<h2>🎓 Required Documents for Admission</h2>
+<div class="aiou-box">
+  <ul style="margin: 0; padding-left: 20px;">
+    <li>CNIC / B-Form (for minors) – copy</li>
+    <li>Recent passport-size photograph (with blue background)</li>
+    <li>Previous educational certificates (Matric for intermediate, Intermediate for bachelor)</li>
+    <li>Domicile certificate (optional but recommended)</li>
+    <li>Admission processing fee challan receipt</li>
+  </ul>
+</div>
+
+<!-- PROGRAMS -->
+<h2 id="programs">📚 Programs Offered at AIOU</h2>
+
+<h3>📘 BA / B.COM Associate Degree</h3>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Code</th><th>Course Name</th><th>Admission Detail</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>0401</td><td>B.COM</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=bcom" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>2</td><td>0405</td><td>BA (General Group)</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=ba-general" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>3</td><td>0408</td><td>BA (Mass Communication)</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=ba-masscom" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>4</td><td>0410</td><td>BA (Library &amp; Information Science)</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=ba-lis" class="inline-link">Fresh / Continue</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>📚 BS 4 Years</h3>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Code</th><th>Course Name</th><th>Admission Detail</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>0435</td><td>BBA (4 Year)</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=bba" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>2</td><td>0436</td><td>BS Accounting and Finance</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=bs-accfin" class="inline-link">Fresh / Continue</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>📖 Master (MA) 2 Year</h3>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Code</th><th>Course Name</th><th>Admission Detail</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>2501</td><td>MA Urdu</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=ma-urdu" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>2</td><td>2401</td><td>MA Islamic Studies</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=ma-islamic" class="inline-link">Fresh / Continue</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>🔬 Master (MSc) 2 Year</h3>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Code</th><th>Course Name</th><th>Admission Detail</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>2101</td><td>MSc Gender and Women Studies</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=msc-gender" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>2</td><td>1601</td><td>MSc Economics</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=msc-economics" class="inline-link">Fresh / Continue</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>👨‍🏫 B.Ed (1.5, 2.5, 4 Year)</h3>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Course Name</th><th>Admission Detail</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>B.Ed 1.5 Years</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=bed-1.5" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>2</td><td>B.Ed 2.5 Years</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=bed-2.5" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>3</td><td>B.Ed 4 Years</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=bed-4" class="inline-link">Fresh / Continue</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>📜 Post Graduate Diploma</h3>
+<div class="table-responsive">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Course Name</th><th>Admission Detail</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>PGD Computer Science</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=pgd-cs" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>2</td><td>PGD Criminology</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=pgd-criminology" class="inline-link">Fresh / Continue</a></td></tr>
+      <tr><td>3</td><td>PGD Entrepreneurship</td><td><a href="https://assignmentwaly.blogspot.com/p/aiou-admissions-and-helpdesk.html?program=pgd-entrepreneurship" class="inline-link">Fresh / Continue</a></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p style="color: #64748b; font-size: 0.85rem; margin-top: 8px;">📌 Updated at 01-March-2026</p>
+
+<!-- HELPDESK -->
+<h2 id="helpdesk">📞 AIOU Helpdesk &amp; Student Support</h2>
+<div class="helpdesk-grid">
+  <div class="helpdesk-card">
+    <span class="icon">📞</span>
+    <strong>UAN Helpline</strong>
+    <p>051-111-112-468</p>
+    <small>Call Now</small>
+  </div>
+  <div class="helpdesk-card">
+    <span class="icon">✉️</span>
+    <strong>Email Support</strong>
+    <p>helpdesk@aiou.edu.pk</p>
+    <small>Send Email</small>
+  </div>
+  <div class="helpdesk-card">
+    <span class="icon">📱</span>
+    <strong>WhatsApp Query</strong>
+    <p>0370-238-8998</p>
+    <small>Chat Now</small>
+  </div>
+  <div class="helpdesk-card">
+    <span class="icon">🌐</span>
+    <strong>LMS Portal</strong>
+    <p>lms.aiou.edu.pk</p>
+    <small>Access LMS</small>
+  </div>
+</div>
+
+<h2>🏢 Regional Offices &amp; Walk-in Support</h2>
+<p>AIOU has regional campuses in all major cities (Karachi, Lahore, Peshawar, Quetta, Multan, etc.). You can visit the nearest regional office for admission forms, fee submission, and tutor details. Main campus: <strong>Sector H-8, Islamabad</strong>.</p>
+
+<div class="aiou-box success" style="text-align: center;">
+  <strong>Thanks for visiting Assignmentwaly – Your trusted partner for AIOU admission guidance and study resources.</strong>
+</div>
+
+<!-- FAQS -->
+<h2 id="faq">❓ Frequently Asked Questions (FAQs)</h2>
+
+<div class="faq-item">
+  <strong>❓ When will AIOU announce admission for 2026?</strong>
+  Spring admissions usually start in January, Autumn in July. Check the official website or this blog for updates.
+</div>
+<div class="faq-item">
+  <strong>❓ Can I apply online without a computer?</strong>
+  Yes, you can apply using your smartphone via the AIOU admission portal – it is mobile responsive.
+</div>
+<div class="faq-item">
+  <strong>❓ How to get my admission confirmation?</strong>
+  After fee verification, AIOU sends an SMS and admission slip on the portal. You can also check via the "Track Admission" option.
+</div>
+<div class="faq-item">
+  <strong>❓ What is the AIOU helpdesk number for assignments?</strong>
+  For assignment/tutor issues, call 051-111-112-468 and select the relevant department, or email helpdesk@aiou.edu.pk.
+</div>
+
+<!-- FINAL LINKS -->
+<h2>🔗 You Might Also Find Useful</h2>
+<div class="aiou-links">
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-assignments.html" class="aiou-btn">📚 Solved Assignments</a>
+  <a href="https://assignmentwaly.blogspot.com/p/unsolved-assignments.html" class="aiou-btn">📋 Unsolved Assignments</a>
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-ba-bcom-original-books-pdf.html" class="aiou-btn">📘 BA / B.Com Textbooks</a>
+  <a href="https://assignmentwaly.blogspot.com/p/aiou-solved-assignments-all-codes.html" class="aiou-btn">✅ Solved Assignments for All Codes</a>
+</div>
+
+<div style="text-align: center; margin-top: 40px;">
+  <a href="https://assignmentwaly.blogspot.com/" class="aiou-btn" style="background: #f1f5f9; color: #0f172a !important; border: 1px solid #e2e8f0;">🏠 Back to Assignmentwaly Homepage</a>
+</div>
+
+</div>
