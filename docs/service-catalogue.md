@@ -1,16 +1,18 @@
-# Service catalogue
+# Assignmentwaly product catalogue
 
-This catalogue distinguishes planned support from regulated or not-yet-launched services.
+Assignmentwaly is focused on free learning tools and original educational articles. Planned features must not be advertised as live.
 
-| Service | Intended offering | Delivery boundary | Status |
-|---|---|---|---|
-| AIOU study support | Course explainers, study notes, practice questions, assignment guidance | Learning support; student authors assessed submissions | Planned |
-| Assignment writing skills | Question breakdown, outline, structure, referencing, draft feedback | No deceptive ghostwriting or guaranteed marks | Planned |
-| Research and thesis skills | Topic exploration, proposal structure, literature search, methods guidance | No fabricated data or sources; learner retains authorship | Planned |
-| Quizzes and exam preparation | MCQ banks, explanations, mock tests, progress insights | Practice only; no live exam assistance or impersonation | Planned |
-| Career support | CV feedback, cover-letter guidance, interview practice | No fake experience or guaranteed job | Planned |
-| Legal awareness | Plain-language law and procedure explainers | General information only; not individual legal advice | Planned |
-| Advocate consultation referral | Connect users with verified independent advocates | Only after advocate verification, consent, conflicts, privacy, and rules review | Not launched |
-| Business compliance education | General checklists and referrals to qualified professionals | No unauthorized legal, tax, accounting, or certification work | Planned |
+| Product | Purpose | Current status |
+|---|---|---|
+| Assignment Builder | Organise course details, questions and student-written answers; Urdu/English direction; word count; local draft save; TXT and print/PDF output | Implemented in repository; needs live browser QA |
+| Study Planner | Weekly schedule, task checklist and local progress | Planned |
+| Citation Helper | Basic citation formatting from user-entered source details, plus source verification | Planned |
+| MCQ Practice Maker | User-created topic quizzes, explanations and practice scoring | Planned |
+| Article library | Original guides linked to free companion resources | Existing Blogger article site; new editorial gate documented |
 
-No service should be advertised as active until the operational process, responsible provider, pricing, quality controls, and legal review are complete.
+## Boundaries
+- Tools support learning; they do not complete assessed work deceptively or promise grades.
+- Do not fabricate sources, data, course details, testimonials or author credentials.
+- Browser-first tools should keep user drafts on-device unless a documented, approved privacy/security design explicitly requires otherwise.
+- Changeable facts such as AIOU dates, course codes, policies and official procedures require current authoritative sources and review dates.
+- Each article should link to a working free companion. If no meaningful companion can be made, require a documented human-editor exception.
