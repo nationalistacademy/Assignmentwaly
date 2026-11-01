@@ -25,6 +25,12 @@ Help learners find trustworthy educational resources, develop practical skills, 
 - Personal information and legal documents must not be collected until a documented privacy notice, lawful purpose, access controls, retention schedule, and secure handling process are in place.
 - No legal or regulatory compliance guarantee is made. Each service must be reviewed against applicable federal and provincial laws and professional rules before launch.
 
+## Current implementation
+- A responsive, static landing page is available at the repository root in index.html.
+- Styles and the small navigation/search script live in assets/css/styles.css and assets/js/app.js.
+- The service search and mobile navigation run in the browser; no account, payment, legal-intake, or document-upload backend is included.
+- The current page is an informational starter, not a live legal-consultancy or advocate-booking service.
+
 ## Project status
 This repository is an evolving project. Features marked as planned are not yet live services. Do not infer that a service is available merely because it appears in the roadmap.
 
