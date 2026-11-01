@@ -1,7 +1,7 @@
-# Assignmentwaly product roadmap
+# Assignmentwaly publishing roadmap
 
 ## Product rule
-Tools first, articles second. Each article should be paired with a free, tested tool, worksheet, checklist, calculator or practice resource before publication.
+Assignmentwaly is the assignment-article website. AIOU Coaching is the destination for student tools and AIOU guess-paper resources. Assignmentwaly articles should link to relevant free tools on AIOU Coaching; do not duplicate the tools in this repository.
 
 ## Phase 1 — Student tools
 - [x] Tools-first responsive homepage and searchable directory.
