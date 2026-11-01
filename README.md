@@ -30,6 +30,7 @@ Help learners find trustworthy educational resources, develop practical skills, 
 - Styles and the small navigation/search script live in assets/css/styles.css and assets/js/app.js.
 - The service search and mobile navigation run in the browser; no account, payment, legal-intake, or document-upload backend is included.
 - The current page is an informational starter, not a live legal-consultancy or advocate-booking service.
+- Run the dependency-free smoke check with `node scripts/check-static-site.mjs` from the repository root.
 
 ## Project status
 This repository is an evolving project. Features marked as planned are not yet live services. Do not infer that a service is available merely because it appears in the roadmap.
