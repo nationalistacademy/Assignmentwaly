@@ -21,6 +21,12 @@ Assignmentwaly is the assignment-focused publishing site in a three-site setup. 
 
 Planned items are not live until implemented and tested.
 
+## AdSense readiness and site quality
+
+- [Public-site AdSense readiness audit](docs/ADSENSE-READINESS-AUDIT.md)
+- Complete trust/legal corrections and the article-quality inventory before requesting an AdSense review.
+- Assignmentwaly and AIOU Coaching remain separate brands with complementary roles; cross-link only when useful and never duplicate content for search manipulation.
+
 ## Article publishing standard
 A new article and its free companion are one release unit. Build and test the companion first; then research and write the article from primary/official sources; fact-check; review accessibility, mobile UX and SEO; and obtain human approval before publication. We do not attempt to manipulate AI-detector scores or disguise AI use. No detector result guarantees search performance.
 
