@@ -1,4 +1,4 @@
-# Taleemwaly — Assignmentwaly Education & Professional Support
+# Assignmentwaly — Education & Professional Support
 
 A Pakistan-focused learning and professional-support platform. This repository is being improved in place; existing project files and history are preserved.
 
@@ -42,7 +42,7 @@ A GitHub Actions workflow is included at `.github/workflows/deploy-pages.yml`. I
 3. Open **Actions** and check the **Deploy Assignmentwaly to GitHub Pages** workflow.
 4. After a successful run, use the published URL shown in the workflow's `github-pages` environment.
 
-The expected default GitHub Pages address is `https://nationalistacademy.github.io/taleemwaly/`, provided Pages is enabled for this repository and the deployment succeeds. A custom domain is not configured by this change.
+The expected default GitHub Pages address is `https://nationalistacademy.github.io/Assignmentwaly/`, provided Pages is enabled for this repository and the deployment succeeds. A custom domain is not configured by this change.
 
 ## Project status
 This repository is an evolving project. Features marked as planned are not yet live services. Do not infer that a service is available merely because it appears in the roadmap.
