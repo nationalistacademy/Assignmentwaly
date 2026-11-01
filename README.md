@@ -51,3 +51,7 @@ Expected default address: https://nationalistacademy.github.io/Assignmentwaly/ â
 
 ## Responsible use
 Assignmentwaly tools support learning and independent work. Learners remain responsible for their own assessed submissions, facts and citations. We do not promise marks, grades, admissions or guaranteed outcomes. Avoid entering sensitive personal information into browser tools, especially on shared devices.
+
+## Organization and legal information
+
+This repository is part of an independently operated project ecosystem. The sole-proprietor organization profile and policy drafts are maintained in [organization/](organization/README.md). Nationalist Academy is operated by Faiez Mehmood in Karachi, Pakistan; it is not an incorporated company, NGO, charity, university or government institution. The policy documents should be reconciled with the actual settings and data practices of each live website before publication.
