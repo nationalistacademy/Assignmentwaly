@@ -1,5 +1,7 @@
 # Assignmentwaly — Assignment Articles & Student Resources
 
+[![NodeJS with Webpack](https://github.com/nationalistacademy/Assignmentwaly/actions/workflows/webpack.yml/badge.svg)](https://github.com/nationalistacademy/Assignmentwaly/actions/workflows/webpack.yml)
+
 Assignmentwaly is the assignment-focused publishing site in a three-site setup. It publishes original assignment articles, solved examples, study guidance and related student resources. Student-facing AIOU tools are hosted on AIOU Coaching; Assignmentwaly links visitors there rather than maintaining a separate duplicate tools portal.
 
 ## Product focus
@@ -67,6 +69,8 @@ This repository is part of an independently operated project ecosystem. The sole
 
 - [Blogger content inventory and backup audit](docs/BLOGGER-CONTENT-INVENTORY.md)
 - [SEO + GEO roadmap](docs/SEO-GEO-ROADMAP.md)
+- [Student-journey content optimization plan](docs/STUDENT-JOURNEY-CONTENT-PLAN.md)
+- [Pakistan-wide organic search playbook](docs/PAKISTAN-ORGANIC-SEARCH-PLAYBOOK.md)
 - [Student and visitor needs roadmap](docs/STUDENT-NEEDS-ROADMAP.md)
 - [Public Blogger HTML archive](archive/blogger-export/README.md)
 
