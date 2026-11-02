@@ -40,3 +40,15 @@ This log records only confirmed live Blogger and Search Console actions. An inde
 - No pages were deleted, merged, or redirected.
 - The 190-URL editorial audit remains open; these two page corrections do not imply that the other URLs have been fixed.
 - Next high-priority work: review the academic-integrity messaging on relevant landing pages, then workshop guidance and course-specific content against current official AIOU sources. Inspect each target URL before editing, preserve its permalink, and add a separate verified entry here after publication.
+
+
+## 3. AIOU Study Resources post — user-reported manual publication
+
+- **URL:** https://assignmentwaly.blogspot.com/2026/04/blog-post.html
+- **Blogger post ID:** `2725748649653732534`
+- **Repository content draft:** [AIOU Study Resources revised post](../drafts/AIOU-STUDY-RESOURCES-POST-REVISED-2026-11-03.md)
+- **Old-content findings:** Browser inspection of the editor found an unsupported “80%+ marks” claim, unverified “verified by academic experts” wording, July/August 2026 deadline dates, generic “all programmes” framing, multiple `href="#"` download placeholders, and an internal QA checklist in the post body.
+- **Recommended correction:** Repositioned the page as an independent course-wise study and practice guide; removed marks guarantees and misleading official-key implications; clarified student authorship; added official AIOU verification links; removed placeholder download links and expired deadlines; added metadata and labels recommendations.
+- **User report:** User states the improved post has been manually published in Blogger.
+- **Verification status:** Not independently re-fetched or compared against the repository draft during this repository update. Treat as **user-reported published; public verification pending**, not as verified live by this assistant.
+- **Permalink requirement:** Preserve `/2026/04/blog-post.html`.
