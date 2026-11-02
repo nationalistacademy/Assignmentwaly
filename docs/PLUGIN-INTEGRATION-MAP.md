@@ -1,6 +1,6 @@
 # Assignmentwaly — Plugin & Integration Map
 
-**Status date:** 2026-11-02  
+**Status date:** 2026-11-03  
 **Repository:** `nationalistacademy/Assignmentwaly`  
 **Working branch:** `strategy/student-journey-pakistan-seo`
 
@@ -35,9 +35,9 @@ Do not add credentials, API keys, OAuth tokens, student data or private account 
 
 | Tool | Why it may help | Current state |
 |---|---|---|
-| Firecrawl | Crawl and extract public pages at scale; compare live Blogger content with the repository archive | Suggested; owner must connect |
+| Firecrawl | Crawl and extract public pages at scale; compare live Blogger content with the repository archive | Connected; read-only crawl completed; see audit reconciliation report |
 | Similarweb | Competitor and audience-market research; use as directional estimates, not first-party traffic truth | Suggested; owner must connect |
-| Metricool | Optional social publishing calendar and channel analytics if Assignmentwaly actively uses supported social accounts | Suggested; owner must connect |
+| Metricool | Optional social publishing calendar and channel analytics if Assignmentwaly actively uses supported social accounts | Connected; network records detected; social implementation deferred |
 
 Ahrefs was previously suggested recently; do not re-suggest it in this cycle. Google Drive, Google Contacts and BigQuery were returned unavailable/disabled in the current account context. No Google Search Console direct connector was confirmed; use a user-provided export or an approved connected data source until access is verified.
 
@@ -70,9 +70,9 @@ Ahrefs was previously suggested recently; do not re-suggest it in this cycle. Go
 
 ## Next implementation steps
 
-1. Owner connects Firecrawl, Similarweb and/or Metricool only if desired.
-2. Verify the exact connected account scopes and data available before using them.
-3. Add a read-only crawler/SEO evidence report for the 190-URL inventory.
+1. Firecrawl read-only crawl is complete; see `docs/audits/COMPLETE-AUDIT-AND-CRAWL-RECONCILIATION-2026-11-03.md`.
+2. Similarweb remains optional and is not verified as connected.
+3. Metricool is connected, but social-media implementation is explicitly deferred; verify brand ownership before future use.
 4. Keep the 28 Phase 0 revised sections distinct from complete replacement HTML; the remaining 162 URLs stay tracked in the audit register.
 5. Prepare full Blogger-safe HTML drafts only after page-level approval; do not publish them automatically.
 
@@ -84,3 +84,8 @@ Metricool is now installed/available as a connected ChatGPT app. Its brand-setti
 Owner action required: connect the Assignmentwaly-owned social network(s) in [Metricool Brand Connections](https://app.metricool.com/brands/connections?blogId=7810173). Connect only accounts the owner controls. After at least one network is connected, inspect the brand settings and available channels before any further action.
 
 No social post has been created, scheduled, sent for review or published. Do not publish automatically without explicit approval of the exact content, channel and schedule.
+
+
+## Metricool connection update — 2026-11-03
+
+A fresh brand-settings check detects network records for Facebook, Instagram, TikTok, Google Business Profile, YouTube and Facebook Ads. The brand label is `faiez_hafeez`; this is not proof that every profile is an official Assignmentwaly account. Per owner direction, social-media implementation remains deferred. No social content has been drafted, scheduled or published.
