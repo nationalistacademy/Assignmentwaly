@@ -21,8 +21,8 @@ The archive snapshot is the source of truth for this audit. Batch 02 was reconst
 
 The register assigns an editorial recommendation to every URL:
 
-- **Improve:** 174 URLs — retain the URL for now, but correct facts, dates, programme mapping, content quality, trust, academic-integrity framing, or metadata as detailed in the batch reports.
-- **Merge Candidate:** 16 URLs — compare overlap, canonical tags, inbound links and Search Console data before selecting a canonical destination. Do not delete or redirect yet.
+- **Improve:** 173 URLs — retain the URL for now, but correct facts, dates, programme mapping, content quality, trust, academic-integrity framing, or metadata as detailed in the batch reports.
+- **Merge Candidate:** 17 URLs — compare overlap, canonical tags, inbound links and Search Console data before selecting a canonical destination. Do not delete or redirect yet.
 - **Remove:** 0 URLs — no URL removal is approved at this stage.
 
 ### Merge-candidate shortlist
@@ -38,9 +38,10 @@ The register assigns an editorial recommendation to every URL:
 | Duplicate sitemap | Static page position 30 | Keep one functional sitemap and assess the second URL's links/canonical state |
 | Guess-paper hubs | Static page positions 9 and 37 | Consolidate into one transparent guess-paper index; remove guarantees and unsupported metrics |
 | Original-books hub | Static page position 38 and programme book pages 17–24 | Make one verified index linking to distinct programme-specific pages; do not duplicate entire catalogues |
+| General assignments hub | Static page position 40 and programme landing pages | Compare broad hub overlap and link equity; retain distinct programme-specific landing pages only where they serve unique intent |
 | Associate Degree overlap | Static page positions 33 and 34 | Map current AD programme scope and consolidate overlapping BA/B.Com/AD intent only after programme verification |
 
-The 16 Merge Candidate count in the CSV is URL-level and includes the individual endpoints in these duplicate groups. This shortlist describes groups, not automatic redirects.
+The 17 Merge Candidate count in the CSV is URL-level and includes the individual endpoints in these duplicate groups. This shortlist describes groups, not automatic redirects.
 
 ## 3. Priority implementation sequence
 
