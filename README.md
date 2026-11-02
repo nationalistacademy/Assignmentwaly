@@ -83,3 +83,8 @@ This repository is part of an independently operated project ecosystem. The sole
 - [Batch 4 static pages editorial review (41 pages)](docs/audits/BATCH-04-STATIC-PAGES-EDITORIAL-REVIEW.md)
 
 The repository now contains a read-only snapshot of the 149 public posts and 41 static pages discovered through Blogger feeds. Live Blogger pages/theme/DNS remain unchanged.
+
+
+## Editorial audit and implementation roadmap
+
+- [190-URL editorial decisions and implementation roadmap](docs/IMPLEMENTATION-ROADMAP-190-URL-AUDIT.md)
