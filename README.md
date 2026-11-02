@@ -93,3 +93,5 @@ The repository now contains a read-only snapshot of the 149 public posts and 41 
 ## Phase 0 — student-safety corrections
 
 - [High-risk student-safety correction pack](docs/drafts/PHASE-0-HIGH-RISK-CORRECTION-PACK.md) — repository-only draft covering login routes, fees, deadlines, workshops, assessment claims and academic integrity. Requires page-level owner approval before any live Blogger edits.
+
+- [Phase 0 page-by-page revised drafts (exact Blogger URLs)](docs/drafts/PHASE-0-PAGE-BY-PAGE-REVISED-DRAFTS.md) — mapped to the 190-URL CSV, with replacement copy for high-risk posts and static pages; draft only, owner approval required.
