@@ -77,6 +77,7 @@ This repository is part of an independently operated project ecosystem. The sole
 - [Editorial audit methodology](docs/audits/EDITORIAL-AUDIT-METHODOLOGY.md)
 - [Official AIOU source register](docs/audits/OFFICIAL-AIOU-SOURCE-REGISTER.md)
 - [Batch 1 high-risk editorial review](docs/audits/BATCH-01-HIGH-RISK-EDITORIAL-REVIEW.md)
+- [Batch 1 remaining posts review (positions 11–12 and 25–50)](docs/audits/BATCH-01-REMAINING-POSTS-EDITORIAL-REVIEW.md)
 - [Batch 2 content-level editorial review (positions 51–100)](docs/audits/BATCH-02-CONTENT-EDITORIAL-REVIEW.md)
 - [Batch 3 content-level editorial review (positions 101–149)](docs/audits/BATCH-03-CONTENT-EDITORIAL-REVIEW.md)
 - [Batch 4 static pages editorial review (41 pages)](docs/audits/BATCH-04-STATIC-PAGES-EDITORIAL-REVIEW.md)
