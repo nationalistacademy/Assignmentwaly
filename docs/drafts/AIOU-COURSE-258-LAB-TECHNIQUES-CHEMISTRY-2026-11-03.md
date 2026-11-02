@@ -91,3 +91,8 @@ Repository-only draft; not published. Audit register identifies duplicate course
 - [ ] Do not invent lab experiments, readings, past-paper questions, files or answer keys.
 - [ ] Add a download only after verifying file identity, source and sharing permission.
 - [ ] Test official links, mobile layout and Urdu/English rendering.
+
+
+## Exact Blogger target mapping (2026-11-03)
+
+**Provisional preferred existing target:** https://assignmentwaly.blogspot.com/2026/04/258.html. The alternate URL https://assignmentwaly.blogspot.com/2026/04/aiou-code-258-lab-techniques-in.html is a merge candidate. Live inspection found existing 80%+ claims, nonfunctional # download destinations and generic Spring 2026 submission instructions. This draft is not a validated replacement for all detailed chemistry answers. Do not publish until subject-matter review checks every retained answer and practical procedure against current official course material. Do not redirect the alternate URL without GSC, backlink and canonical evidence plus owner approval.
