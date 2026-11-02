@@ -92,3 +92,8 @@ Repository-only draft; not published. Preserve the chosen existing Blogger perma
 - [ ] Do not claim “all topics”, “complete syllabus”, “80%+”, “guess paper guarantee” or official status without evidence.
 - [ ] No fake downloads, placeholder buttons or invented past papers.
 - [ ] Test links and mobile/Urdu rendering.
+
+
+## Exact Blogger target mapping (2026-11-03)
+
+**Study-guide target:** https://assignmentwaly.blogspot.com/2026/04/ict-260.html — preserve this existing permalink and use this draft only for the course overview/revision-guide intent. **Separate practice-page candidate:** https://assignmentwaly.blogspot.com/2026/04/aiou-code-260-information-technology.html — do not merge automatically; it can remain a distinct practice/revision resource after answer verification and removal of score guarantees. The official catalogue confirms code/title/credits only, not a complete syllabus. Do not claim the course outline is complete or add syllabus units without current official course material.
