@@ -52,3 +52,14 @@
 - Students retain authorship and responsibility for their assessed work.
 
 **Publication state:** All four files are draft-only. No Blogger post/page, theme, sitemap, robots setting, redirect, DNS or production setting was changed.
+
+
+## Live URL mapping and approval status (2026-11-03)
+
+The nine relevant existing Blogger URLs were re-fetched read-only and mapped in:
+- [Live duplicate URL evidence review](../audits/WORKSHOP-COURSE-DUPLICATE-URL-EVIDENCE-REVIEW-2026-11-03.md)
+- [Page-by-page owner approval pack](APPROVAL-PACK-WORKSHOP-COURSE-PAGES-2026-11-03.md)
+
+The drafts now include exact target URL notes. The approval pack recommends the April 16 workshop page as the primary evergreen guide; numeric URLs /258.html and /259.html as provisional primary course pages after answer-level review; and /ict-260.html as the Course 260 study-guide target. Alternate URLs remain merge candidates where noted. No redirect, deletion, canonical change or Blogger publication is authorized by this evidence review.
+
+**Evidence gap:** Search Console URL-level data and backlink data were not available, so no URL consolidation decision is final. HTTP 200 and content overlap alone are insufficient grounds for a redirect.
