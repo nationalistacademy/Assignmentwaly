@@ -113,3 +113,8 @@ Repository-only draft. Not published to Blogger. No existing page has been edite
 ## Unresolved evidence
 
 The AIOU Workshop Information page returned a 200 status but the page content extraction did not expose the current schedule and its metadata showed `robots: noindex`. This is a crawler observation, not a recommendation to change AIOU settings. Do not quote a workshop calendar from this page until the visible schedule is manually confirmed.
+
+
+## Exact Blogger target mapping (2026-11-03)
+
+**Preferred existing target:** https://assignmentwaly.blogspot.com/2026/04/aiou-workshop-attendance-2026-schedule.html — preserve this permalink and use this draft as the basis for an evergreen schedule/AAGHI guide. The older overlapping page https://assignmentwaly.blogspot.com/2026/04/aiou-workshop-schedule-attendance-guide.html is a merge candidate, not an approved redirect. The newer Roman Urdu page https://assignmentwaly.blogspot.com/2026/11/aiou-online-workshops-important-rules-guide-roman.html should be rewritten as a concise Roman Urdu companion. See the URL evidence review and approval pack. No live changes made.
