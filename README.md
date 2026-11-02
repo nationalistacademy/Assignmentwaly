@@ -73,5 +73,9 @@ This repository is part of an independently operated project ecosystem. The sole
 - [Pakistan-wide organic search playbook](docs/PAKISTAN-ORGANIC-SEARCH-PLAYBOOK.md)
 - [Student and visitor needs roadmap](docs/STUDENT-NEEDS-ROADMAP.md)
 - [Public Blogger HTML archive](archive/blogger-export/README.md)
+- [190-URL editorial audit register (CSV)](docs/audits/EDITORIAL-AUDIT-REGISTER-2026-11-02.csv)
+- [Editorial audit methodology](docs/audits/EDITORIAL-AUDIT-METHODOLOGY.md)
+- [Official AIOU source register](docs/audits/OFFICIAL-AIOU-SOURCE-REGISTER.md)
+- [Batch 1 high-risk editorial review](docs/audits/BATCH-01-HIGH-RISK-EDITORIAL-REVIEW.md)
 
 The repository now contains a read-only snapshot of the 149 public posts and 41 static pages discovered through Blogger feeds. Live Blogger pages/theme/DNS remain unchanged.
