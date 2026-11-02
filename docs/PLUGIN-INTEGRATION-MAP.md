@@ -75,3 +75,12 @@ Ahrefs was previously suggested recently; do not re-suggest it in this cycle. Go
 3. Add a read-only crawler/SEO evidence report for the 190-URL inventory.
 4. Keep the 28 Phase 0 revised sections distinct from complete replacement HTML; the remaining 162 URLs stay tracked in the audit register.
 5. Prepare full Blogger-safe HTML drafts only after page-level approval; do not publish them automatically.
+
+
+## Metricool connection update — 2026-11-02
+
+Metricool is now installed/available as a connected ChatGPT app. Its brand-settings check returned: **no social network is connected yet** for the available brand (brand ID 7810173). Therefore, no social analytics, best-time recommendations, scheduling or publishing can run yet.
+
+Owner action required: connect the Assignmentwaly-owned social network(s) in [Metricool Brand Connections](https://app.metricool.com/brands/connections?blogId=7810173). Connect only accounts the owner controls. After at least one network is connected, inspect the brand settings and available channels before any further action.
+
+No social post has been created, scheduled, sent for review or published. Do not publish automatically without explicit approval of the exact content, channel and schedule.
