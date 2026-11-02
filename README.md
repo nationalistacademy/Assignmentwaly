@@ -73,5 +73,25 @@ This repository is part of an independently operated project ecosystem. The sole
 - [Pakistan-wide organic search playbook](docs/PAKISTAN-ORGANIC-SEARCH-PLAYBOOK.md)
 - [Student and visitor needs roadmap](docs/STUDENT-NEEDS-ROADMAP.md)
 - [Public Blogger HTML archive](archive/blogger-export/README.md)
+- [190-URL editorial audit register (CSV)](docs/audits/EDITORIAL-AUDIT-REGISTER-2026-11-02.csv)
+- [Editorial audit methodology](docs/audits/EDITORIAL-AUDIT-METHODOLOGY.md)
+- [Official AIOU source register](docs/audits/OFFICIAL-AIOU-SOURCE-REGISTER.md)
+- [Batch 1 high-risk editorial review](docs/audits/BATCH-01-HIGH-RISK-EDITORIAL-REVIEW.md)
+- [Batch 1 remaining posts review (positions 11–12 and 25–50)](docs/audits/BATCH-01-REMAINING-POSTS-EDITORIAL-REVIEW.md)
+- [Batch 2 content-level editorial review (positions 51–100)](docs/audits/BATCH-02-CONTENT-EDITORIAL-REVIEW.md)
+- [Batch 3 content-level editorial review (positions 101–149)](docs/audits/BATCH-03-CONTENT-EDITORIAL-REVIEW.md)
+- [Batch 4 static pages editorial review (41 pages)](docs/audits/BATCH-04-STATIC-PAGES-EDITORIAL-REVIEW.md)
 
 The repository now contains a read-only snapshot of the 149 public posts and 41 static pages discovered through Blogger feeds. Live Blogger pages/theme/DNS remain unchanged.
+
+
+## Editorial audit and implementation roadmap
+
+- [190-URL editorial decisions and implementation roadmap](docs/IMPLEMENTATION-ROADMAP-190-URL-AUDIT.md)
+
+
+## Phase 0 — student-safety corrections
+
+- [High-risk student-safety correction pack](docs/drafts/PHASE-0-HIGH-RISK-CORRECTION-PACK.md) — repository-only draft covering login routes, fees, deadlines, workshops, assessment claims and academic integrity. Requires page-level owner approval before any live Blogger edits.
+
+- [Phase 0 page-by-page revised drafts (exact Blogger URLs)](docs/drafts/PHASE-0-PAGE-BY-PAGE-REVISED-DRAFTS.md) — mapped to the 190-URL CSV, with replacement copy for high-risk posts and static pages; draft only, owner approval required.
