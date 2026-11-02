@@ -59,3 +59,49 @@ Metricool now detects connected network records, but the brand label is `faiez_h
 ## Approval boundary
 
 Repository-only work on the feature branch. No live Blogger changes, redirects, deletions, DNS/Cloudflare updates, production deployment, tracking tags or social publishing without separate explicit approval.
+
+
+## Technical crawl observations (metadata-level)
+
+Across the 190 returned documents, the crawler reported HTTP status distribution: **173 HTTP 200** and **17 HTTP 404**. These counts include the sitemap/homepage/crawled URLs and should not be equated with the 190 editorial register rows.
+
+Metadata availability in the returned scrape records:
+- Title: 189/190
+- Meta description: 172/190
+- Viewport: 189/190
+- Keywords: 172/190
+- Open Graph title and description: 172/190 and 172/190
+- Robots metadata exposed: 1/190
+- Canonical field exposed by this scrape metadata: 0/190
+
+**Interpretation:** a field not surfaced in Firecrawl metadata is not proof that the underlying HTML lacks it. Canonical and robots directives require direct HTML/head inspection before making SEO conclusions. The crawl markdown parser detected multiple top-level H1 headings on 8 documents; manually verify the actual rendered heading structure before changing templates.
+
+### URLs returning HTTP 404 in the crawl
+
+- https://assignmentwaly.blogspot.com/p/about.html
+- https://assignmentwaly.blogspot.com/p/aiou-admissions.html
+- https://assignmentwaly.blogspot.com/p/aiou-date-sheets.html
+- https://assignmentwaly.blogspot.com/p/aiou-results.html
+- https://assignmentwaly.blogspot.com/p/aiou-tutors.html
+- https://assignmentwaly.blogspot.com/p/aiou-certificates.html
+- https://assignmentwaly.blogspot.com/p/aiou-past-papers.html
+- https://assignmentwaly.blogspot.com/p/aiou-international.html
+- https://assignmentwaly.blogspot.com/p/career.html
+- https://assignmentwaly.blogspot.com/p/payments.html
+- https://assignmentwaly.blogspot.com/p/unsolved-assignments.html
+- https://assignmentwaly.blogspot.com/2026/04/aiou-change-of-books-application.html
+- https://assignmentwaly.blogspot.com/2026/04/aiou-undelivered-books-application.html
+- https://assignmentwaly.blogspot.com/2026/04/aiou-correction-change-address.html
+- https://assignmentwaly.blogspot.com/2026/04/solved-assignment-417-aiou-spring-2026.html
+- https://assignmentwaly.blogspot.com/2026/04/aiou-correction-name-father-name-dob.html
+- https://assignmentwaly.blogspot.com/2026/04/aiou-transcript-application-2026.html
+
+These 404s should be checked against Blogger Pages/Posts and current internal links. If they are intentionally retired, decide whether to remove internal links or provide a relevant replacement. Do not create redirects blindly; preserve relevant backlinks and confirm URL ownership first.
+
+### Immediate technical priorities
+
+1. Resolve or remove internal links to confirmed 404 destinations after verifying their intended replacement.
+2. Inspect all 17 404 destinations individually; some may be old URLs, renamed pages or genuinely missing content.
+3. Check title/description completeness on the 18 documents where those fields were not returned; distinguish sitemap/utility documents from actual pages.
+4. Inspect canonical and robots directives from raw HTML, as scrape metadata alone is inconclusive.
+5. Review the homepage's navigation and placeholder menu labels, then test the live menu on mobile and desktop.
