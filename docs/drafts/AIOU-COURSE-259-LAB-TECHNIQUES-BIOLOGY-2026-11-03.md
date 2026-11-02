@@ -91,3 +91,8 @@ Repository-only draft; not published. The 190-URL audit identifies duplicate Cou
 - [ ] Do not invent specimen lists, experiments, observations, diagrams or downloads.
 - [ ] Verify file rights and actual file contents before adding a download.
 - [ ] Test all links and mobile layout.
+
+
+## Exact Blogger target mapping (2026-11-03)
+
+**Provisional preferred existing target:** https://assignmentwaly.blogspot.com/2026/04/259.html. The alternate URL https://assignmentwaly.blogspot.com/2026/04/aiou-code-259-lab-techniques-in-biology.html is a merge candidate. Live inspection found 80%+ claims, nonfunctional # download destinations and generic Spring 2026 submission instructions. The selected page contains detailed biological practical content that requires qualified accuracy and safety review. This general draft does not validate those answers or experimental procedures. Do not publish until review is complete; do not redirect the alternate without GSC, backlink and canonical evidence plus owner approval.
