@@ -62,3 +62,32 @@ The current course drafts for 258, 259 and 260 remain provisional. Their earlier
 ## Live-change boundary
 
 No Blogger post/page/theme was changed by this update. No Search Console setting, sitemap, canonical, redirect, DNS or Cloudflare setting was changed. No URL was deleted or merged.
+
+
+## Retrieval progress update — Course 259 (2026-11-03)
+
+A second extraction route (Exa PDF text fetch) successfully returned substantial text from the exact official AIOU URL:
+https://online.aiou.edu.pk/LIVE_SITE/SoftBooks/0259.pdf
+
+Evidence from the extracted document:
+- The document identifies itself as **LABORATORY TECHNIQUES IN BIOLOGY**, Course 259, with Units 1–9.
+- The front matter includes a 2025 publication/edition marker.
+- The contents pages expose nine unit start pages: approximately 1, 37, 51, 91, 117, 129, 153, 173 and 195.
+- Extracted opening unit text clearly covers introductory biology, branches of biology (including botany/zoology, morphology, histology, cell biology/cytology, physiology, embryology, ecology, taxonomy, genetics, evolution, paleontology and biochemistry), and biological classification.
+- Later extracted pages include organism classification, cell structure (cell membrane, cytoplasm, nucleus), cell division and additional biology concepts. The PDF text layer has Urdu glyph/font encoding artifacts; many Urdu headings are not reliably readable in the extracted text. The extraction is therefore evidence of actual book content, but not yet a clean, fully validated English/Urdu chapter transcription.
+- This is enough to flag a major mismatch risk: the earlier Blogger Q&A topics about microscope hardware, slide staining, sterilisation, culture media and enzyme tests must NOT automatically be called Course 259 book-aligned. Each must be located in the official book or clearly labelled as supplementary general biology material.
+
+The exact official PDF URL was fetched directly; no third-party copy was used. The PDF itself is not being republished or redistributed. Only bibliographic/course mapping notes and original study explanations will be stored in the repository.
+
+## Remaining retrieval status
+
+- Course 258 official PDF: Exa live fetch timed out; web open disabled; Firecrawl parsing did not return contents and later reported exhausted credits. No official book text retrieved.
+- Course 260 official PDF: Exa live fetch timed out; web open disabled. Search index returned an official AIOU book for course 1431/5403, which is a different course and MUST NOT be substituted for Course 260. No official Course 260 book text retrieved.
+- Course 259: substantial extraction obtained, but Urdu font encoding makes portions of the TOC/body difficult to decode. Needs page-level OCR/visual review or a locally downloaded PDF with the embedded Urdu font correctly rendered before asserting exact chapter titles.
+
+## Immediate editorial consequence
+
+1. Pause any claim that the current Course 259 Q1–Q8 list is fully syllabus-aligned.
+2. Preserve the useful original answers only as candidate supplementary explainers until each concept is located in the official book.
+3. Add a course-specific chapter map only after headings are decoded accurately; do not guess Urdu chapter titles from corrupted glyph strings.
+4. Continue to keep the three main course pages and the new related articles as repository drafts; no Blogger publication, URL merge, redirect or deletion has occurred.
