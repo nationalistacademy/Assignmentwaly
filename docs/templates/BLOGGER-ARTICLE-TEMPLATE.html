@@ -1,83 +1,69 @@
 <!--
-Assignmentwaly reusable Blogger article fragment.
-Copy this file when creating a page. Replace every [PLACEHOLDER].
-Keep existing Blogger source metadata/permalink when updating an existing page.
-Prepare SEO metadata separately; do not paste it into the visible article body.
-Do not use Plus UI classes until verified in the actual theme source or rendered page.
-Use a unique wrapper class for every page and scope every CSS selector to it.
+Assignmentwaly Blogger page/article fragment for Plus UI v3.7.0.
+Replace placeholders and retain existing Blogger source metadata/permalink when refreshing.
+SEO META PACK is editor-only; do not paste it into visible article copy.
+Theme source checked: Blogger Template/Assignmentwaly.xml (Plus UI v3.7.0).
+No page-level style block, script, inline style or custom color is required.
 -->
-<div class="aw-article-[UNIQUE-SLUG]">
-<style>
-.aw-article-[UNIQUE-SLUG]{
-  --aw-text:#263548;--aw-muted:#596b7f;--aw-heading:#173b63;--aw-link:#075b96;
-  --aw-border:#d7e1eb;--aw-surface:#fff;--aw-soft:#f3f7fb;--aw-row:#f7f9fc;
-  color:var(--aw-text);background:var(--aw-surface);font:16px/1.75 Arial,Helvetica,sans-serif;
-  max-width:100%;min-width:0;overflow-wrap:anywhere;color-scheme:light;
-}
-.aw-article-[UNIQUE-SLUG] *{box-sizing:border-box;max-width:100%}
-.aw-article-[UNIQUE-SLUG] h1,.aw-article-[UNIQUE-SLUG] h2,.aw-article-[UNIQUE-SLUG] h3{color:var(--aw-heading);line-height:1.35}
-.aw-article-[UNIQUE-SLUG] h1{font-size:clamp(1.65rem,4vw,2.15rem);line-height:1.25}
-.aw-article-[UNIQUE-SLUG] h2{font-size:clamp(1.25rem,3vw,1.5rem);margin:30px 0 12px;border-left:4px solid #2876a8;padding-left:12px}
-.aw-article-[UNIQUE-SLUG] h3{font-size:1.1rem;margin:22px 0 8px}
-.aw-article-[UNIQUE-SLUG] p{margin:12px 0}
-.aw-article-[UNIQUE-SLUG] a{color:var(--aw-link);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
-.aw-article-[UNIQUE-SLUG] a:focus-visible{outline:3px solid #e0a72e;outline-offset:3px}
-.aw-article-[UNIQUE-SLUG] .aw-meta{color:var(--aw-muted);font-size:.9rem;border-bottom:1px solid var(--aw-border);padding-bottom:12px}
-.aw-article-[UNIQUE-SLUG] .aw-callout{background:var(--aw-soft);border:1px solid var(--aw-border);border-left:4px solid #2876a8;border-radius:8px;padding:14px 16px;margin:18px 0;color:var(--aw-text)}
-.aw-article-[UNIQUE-SLUG] .aw-table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;border:1px solid var(--aw-border);border-radius:8px;margin:16px 0}
-.aw-article-[UNIQUE-SLUG] table{border-collapse:collapse;width:100%;min-width:520px;background:var(--aw-surface);color:var(--aw-text)}
-.aw-article-[UNIQUE-SLUG] th{background:#173b63;color:#fff;text-align:left;padding:11px}
-.aw-article-[UNIQUE-SLUG] td{padding:11px;border-top:1px solid var(--aw-border);vertical-align:top}
-.aw-article-[UNIQUE-SLUG] tbody tr:nth-child(even){background:var(--aw-row)}
-@media(prefers-color-scheme:dark){
-  html:not([data-theme="light"]) .aw-article-[UNIQUE-SLUG],body:not([data-theme="light"]) .aw-article-[UNIQUE-SLUG]{
-    --aw-text:#e5edf6;--aw-muted:#b5c3d2;--aw-heading:#f0f6ff;--aw-link:#8cc8ff;
-    --aw-border:#3b4b5e;--aw-surface:#182332;--aw-soft:#202f40;--aw-row:#223246;color-scheme:dark;
-  }
-}
-:where(html[data-theme="dark"],body[data-theme="dark"],html.dark,body.dark,body.dark-mode,.dark-mode) .aw-article-[UNIQUE-SLUG]{
-  --aw-text:#e5edf6;--aw-muted:#b5c3d2;--aw-heading:#f0f6ff;--aw-link:#8cc8ff;
-  --aw-border:#3b4b5e;--aw-surface:#182332;--aw-soft:#202f40;--aw-row:#223246;color-scheme:dark;
-}
-@media(max-width:600px){.aw-article-[UNIQUE-SLUG]{font-size:15.5px}}
-</style>
+<!-- SEO META PACK (editor use only)
+Title Tag: [Under 60 characters]
+Meta Description: [Concise, accurate description]
+Existing URL Slug: [Preserve the current Blogger permalink]
+Primary Keyword: [One natural search intent]
+Secondary Keywords: [A few relevant variations]
+Image 1 Alt: [Accurate description of image 1]
+Image 2 Alt: [Accurate description of image 2]
+-->
 
-<!-- SEO metadata pack for editor only: Meta title [title]; meta description [description]; preserve verified permalink [slug]; primary query [query]; secondary queries [variants]. -->
-<h1>[Descriptive page title]</h1>
-<p class="aw-meta">Last checked: [date] · Assignmentwaly Editorial Team · [audience/programme]</p>
+<!-- Blogger source metadata: preserve original source_url, title, published, updated, labels and author. -->
 
-<p><strong>Direct answer:</strong> [In 2–4 sentences, explain what this page helps the student do, who it applies to and the semester/programme scope. Answer the main query directly.]</p>
-<!-- Do not force a word count, keyword density, number of H2s or FAQs. Add only researched sections that help the student. -->
+<h1>[Clear page title]</h1>
+<p><small>Last checked: [date] · Assignmentwaly Editorial Team · [intended audience]</small></p>
 
-<div class="aw-callout"><strong>Important:</strong> [Only include a relevant deadline, eligibility or safety warning. Link the official source.]</div>
+<p><strong>Direct answer:</strong> [Answer the main query in 2–4 concise sentences. State who the page applies to and the relevant programme/semester scope.]</p>
 
-<nav aria-label="On this page">
-  <strong>On this page</strong>
+<div class="note"><strong>Important:</strong> [Add a useful notice only when needed. Link the official source supporting it.]</div>
+
+<details class="sp">
+  <summary>On this page</summary>
   <ul>
     <li><a href="#[section-one]">[Section one]</a></li>
     <li><a href="#[section-two]">[Section two]</a></li>
-    <li><a href="#[faqs]">Frequently asked questions</a></li>
+    <li><a href="#faqs">Frequently asked questions</a></li>
   </ul>
-</nav>
+</details>
 
-<h2 id="[section-one]">[Main student question / task]</h2>
-<p>[Give the direct answer first. Explain steps and exceptions.]</p>
+<h2 id="[section-one]">[Main student question or task]</h2>
+<p>[Give the direct answer first, followed by useful explanation and official sources.]</p>
 
-<h2 id="[section-two]">[Next useful section]</h2>
-<p>[Use verified facts, practical examples and official source links.]</p>
-<div class="aw-table-scroll" role="region" aria-label="[Describe this table]" tabindex="0">
+<h2 id="[section-two]">[Next relevant section]</h2>
+<p>[Use verified facts, examples and clear next steps.]</p>
+<ol class="steps">
+  <li>[Step one]</li>
+  <li>[Step two]</li>
+  <li>[Step three]</li>
+</ol>
+
+<div class="table primary stripped hovered" role="region" aria-label="[Describe the table]" tabindex="0">
   <table>
     <thead><tr><th>[Column one]</th><th>[Column two]</th></tr></thead>
     <tbody><tr><td>[Verified item]</td><td>[Verified detail]</td></tr></tbody>
   </table>
 </div>
 
-<h2 id="[faqs]">Frequently asked questions</h2>
-<h3>[Real follow-up question]</h3>
-<p>[Concise, evidence-based answer with a source link where needed.]</p>
+<div class="alert info"><strong>Student tip</strong><p>[A concise, practical tip relevant to this page.]</p></div>
+
+<h2 id="faqs">Frequently asked questions</h2>
+<details class="ac">
+  <summary>Q: [A genuine follow-up question]</summary>
+  <p>A: [A concise, evidence-based answer. Add an official link where needed.]</p>
+</details>
 
 <h2>Related AIOU guidance</h2>
-<p>[Add only verified links to existing Assignmentwaly pages that help with the next student task.]</p>
+<ul>
+  <li><a href="[verified-internal-url]">[Relevant next resource]</a></li>
+</ul>
 
-<div class="aw-callout"><strong>Editorial note:</strong> Assignmentwaly is an independent educational resource and is not affiliated with AIOU. Official notices and prospectuses take priority if information changes.</div>
-</div>
+<blockquote class="s1">[Optional short, useful reminder; omit if it adds no value.]</blockquote>
+
+<div class="note"><strong>Editorial note:</strong> Assignmentwaly is an independent educational resource and is not affiliated with AIOU. Official notices and prospectuses take priority if information changes.</div>
