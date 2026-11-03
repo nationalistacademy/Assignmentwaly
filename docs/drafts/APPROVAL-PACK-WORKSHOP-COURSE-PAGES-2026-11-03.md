@@ -14,7 +14,7 @@ This pack recommends which existing URLs should receive the revised content and 
 |---|---|---|---|---|
 | P1 | https://assignmentwaly.blogspot.com/2026/04/aiou-workshop-attendance-2026-schedule.html | Replace inaccurate schedule/attendance claims with the AAGHI daily-link guidance draft; preserve evergreen student-help intent | Yes | Draft mapped; needs final editorial review |
 | P2 | https://assignmentwaly.blogspot.com/2026/04/aiou-workshop-schedule-attendance-guide.html | Merge verified unique information into primary workshop page; remove duplicate unsupported claims | Yes until evidence review; no redirect now | Merge candidate only |
-| P2 | https://assignmentwaly.blogspot.com/2026/11/aiou-online-workshops-important-rules-guide-roman.html | Rewrite as a short Roman Urdu companion with a link to the primary guide; remove universal 30-mark quiz and attendance claims | Yes | Companion rewrite still needs a dedicated draft |
+| P2 | https://assignmentwaly.blogspot.com/2026/11/aiou-online-workshops-important-rules-guide-roman.html | Replace with concise Roman Urdu AAGHI daily-link guide; link to primary English guide | Yes | Repository draft prepared; live edit still pending |
 | P1 | https://assignmentwaly.blogspot.com/2026/04/258.html | Use Course 258 draft for verified course identity, safe study structure and transparent self-study guidance; retain practice-question intent only after every answer is checked | Yes | Provisional target; academic review blocker |
 | P2 | https://assignmentwaly.blogspot.com/2026/04/aiou-code-258-lab-techniques-in.html | Candidate duplicate; compare any unique verified content with primary URL, then consolidate only after SEO evidence | No redirect now | Merge candidate only |
 | P1 | https://assignmentwaly.blogspot.com/2026/04/259.html | Use Course 259 draft for course identity and safe study guidance; retain detailed biology practical answers only after qualified accuracy/safety review | Yes | Provisional target; subject/safety review blocker |
@@ -25,6 +25,7 @@ This pack recommends which existing URLs should receive the revised content and 
 ## 3. Draft files
 
 - [Workshop AAGHI guidance draft](AIOU-WORKSHOP-ATTENDANCE-AAGHI-GUIDE-2026-11-03.md)
+- [Roman Urdu workshop companion draft](AIOU-ONLINE-WORKSHOPS-ROMAN-URDU-COMPANION-2026-11-03.md)
 - [Course 258 draft](AIOU-COURSE-258-LAB-TECHNIQUES-CHEMISTRY-2026-11-03.md)
 - [Course 259 draft](AIOU-COURSE-259-LAB-TECHNIQUES-BIOLOGY-2026-11-03.md)
 - [Course 260 draft](AIOU-COURSE-260-INFORMATION-TECHNOLOGY-BASICS-2026-11-03.md)
@@ -82,7 +83,7 @@ The current repository drafts are complete structural/student-guidance drafts, n
 - Course 258: verify each retained chemistry answer and practical procedure against current official course material.
 - Course 259: verify each biology answer and apply qualified lab-safety review.
 - Course 260: obtain current official course outline before adding specific syllabus topics; independently review the practice-paper page.
-- Roman Urdu workshop companion: create and review a concise companion draft.
+- Roman Urdu workshop companion: draft now exists; recheck the AAGHI daily-link instruction and internal link immediately before publication.
 - All pages: confirm current titles, descriptions, internal links, mobile layout and actual downloadable assets.
 
 ## 8. Owner approval checklist
@@ -100,4 +101,4 @@ Please approve or amend the following decisions before any live changes:
 - [ ] Course 260 practice page: keep distinct pending answer review
 - [ ] No redirects, deletions or canonical changes in this approval round
 
-**Live state:** Read-only inspection only. The public Blogger pages remain unchanged by this work.
+**Live state:** Read-only inspection only. The public Blogger pages remain unchanged by this work. The Roman Urdu companion draft was added to the repository on 2026-11-03; it has not been published.
