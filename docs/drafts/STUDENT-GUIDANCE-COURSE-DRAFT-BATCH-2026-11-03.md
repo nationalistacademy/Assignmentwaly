@@ -63,3 +63,10 @@ The nine relevant existing Blogger URLs were re-fetched read-only and mapped in:
 The drafts now include exact target URL notes. A dedicated Roman Urdu companion draft has also been added for the November workshop post. The approval pack recommends the April 16 workshop page as the primary evergreen guide; numeric URLs /258.html and /259.html as provisional primary course pages after answer-level review; and /ict-260.html as the Course 260 study-guide target. Alternate URLs remain merge candidates where noted. No redirect, deletion, canonical change or Blogger publication is authorized by this evidence review.
 
 **Evidence gap:** Search Console URL-level data and backlink data were not available, so no URL consolidation decision is final. HTTP 200 and content overlap alone are insufficient grounds for a redirect.
+
+
+## Answer-by-answer audit added — 2026-11-03
+
+A fresh read-only inspection of the six existing Course 258/259/260 Blogger URLs is complete. The full question-by-question review, preserved material map, scientific/technical corrections and evidence limitations are in [Course 258/259/260 Answer-by-Answer Audit](../audits/COURSE-258-259-260-ANSWER-BY-ANSWER-AUDIT-2026-11-03.md).
+
+Initial review status: original useful Q&A material is mapped for preservation; no Blogger changes made. The official AIOU online soft-books search is linked in the audit, but the actual book files/text still need retrieval and answer-level syllabus reconciliation.
