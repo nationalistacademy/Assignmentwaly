@@ -97,3 +97,12 @@ Repository-only draft; not published. Preserve the chosen existing Blogger perma
 ## Exact Blogger target mapping (2026-11-03)
 
 **Study-guide target:** https://assignmentwaly.blogspot.com/2026/04/ict-260.html — preserve this existing permalink and use this draft only for the course overview/revision-guide intent. **Separate practice-page candidate:** https://assignmentwaly.blogspot.com/2026/04/aiou-code-260-information-technology.html — do not merge automatically; it can remain a distinct practice/revision resource after answer verification and removal of score guarantees. The official catalogue confirms code/title/credits only, not a complete syllabus. Do not claim the course outline is complete or add syllabus units without current official course material.
+
+
+## Existing answer preservation map — 2026-11-03
+
+The six-URL answer-by-answer review is recorded in [Course 258/259/260 Answer-by-Answer Audit](../audits/COURSE-258-259-260-ANSWER-BY-ANSWER-AUDIT-2026-11-03.md).
+
+Preserve the eight original practice-question themes and useful short questions on computer types, hardware/software, CPU and memory, internet history, WWW/browsers/search engines, email, office applications and cybersecurity. Complete the currently unfinished MS Office answer. Correct the RAM GHz claim, ROM/BIOS oversimplification, internet/Web dates, computer-category taxonomy, malformed tables and password advice. Preserve the separate study guide's four broad learning prompts (computer block diagram, software types, internet services, ICT in distance education) as sample revision prompts only.
+
+**Important blockers:** the eight-unit syllabus, topic weightages, 5-year paper analysis and named citations on the study-guide page have not been verified against the official AIOU book and must not be represented as official. Obtain the current soft book before writing a course-specific unit outline. Remove score guarantees, invented references, contradictory dates and placeholder downloads.
