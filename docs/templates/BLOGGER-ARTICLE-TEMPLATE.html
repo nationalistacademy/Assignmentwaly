@@ -2,6 +2,8 @@
 Assignmentwaly reusable Blogger article fragment.
 Copy this file when creating a page. Replace every [PLACEHOLDER].
 Keep existing Blogger source metadata/permalink when updating an existing page.
+Prepare SEO metadata separately; do not paste it into the visible article body.
+Do not use Plus UI classes until verified in the actual theme source or rendered page.
 Use a unique wrapper class for every page and scope every CSS selector to it.
 -->
 <div class="aw-article-[UNIQUE-SLUG]">
@@ -40,10 +42,12 @@ Use a unique wrapper class for every page and scope every CSS selector to it.
 @media(max-width:600px){.aw-article-[UNIQUE-SLUG]{font-size:15.5px}}
 </style>
 
+<!-- SEO metadata pack for editor only: Meta title [title]; meta description [description]; preserve verified permalink [slug]; primary query [query]; secondary queries [variants]. -->
 <h1>[Descriptive page title]</h1>
 <p class="aw-meta">Last checked: [date] · Assignmentwaly Editorial Team · [audience/programme]</p>
 
-<p><strong>Direct answer:</strong> [In 2–4 sentences, explain what this page helps the student do, who it applies to and the semester/programme scope.]</p>
+<p><strong>Direct answer:</strong> [In 2–4 sentences, explain what this page helps the student do, who it applies to and the semester/programme scope. Answer the main query directly.]</p>
+<!-- Do not force a word count, keyword density, number of H2s or FAQs. Add only researched sections that help the student. -->
 
 <div class="aw-callout"><strong>Important:</strong> [Only include a relevant deadline, eligibility or safety warning. Link the official source.]</div>
 
