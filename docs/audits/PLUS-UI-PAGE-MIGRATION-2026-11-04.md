@@ -18,7 +18,7 @@
 
 - [ ] `content/pages/about-us.html`
 - [ ] `content/pages/advertise.html`
-- [ ] `content/pages/aiou-academic-schedule.html`
+- [x] `content/pages/aiou-academic-schedule.html` — removed page CSS and inline styles; native table wrappers, alerts, notes, buttons and five FAQ accordions applied.
 - [ ] `content/pages/aiou-ad-english-odl-solved-assignments.html`
 - [ ] `content/pages/aiou-ad-gender-women-studies-solved.html`
 - [ ] `content/pages/aiou-ad-history-odl-solved-assignments.html`
