@@ -102,3 +102,12 @@ Please approve or amend the following decisions before any live changes:
 - [ ] No redirects, deletions or canonical changes in this approval round
 
 **Live state:** Read-only inspection only. The public Blogger pages remain unchanged by this work. The Roman Urdu companion draft was added to the repository on 2026-11-03; it has not been published.
+
+
+## Answer-level review update — 2026-11-03
+
+The existing Course 258, 259 and 260 public pages have now been re-fetched and reviewed question by question. See [Course 258/259/260 Answer-by-Answer Audit](../audits/COURSE-258-259-260-ANSWER-BY-ANSWER-AUDIT-2026-11-03.md) for the preservation map, per-question corrections, safety notes, evidence register and remaining blockers.
+
+The review recommends preserving useful original answers rather than replacing the pages with thin generic copy. Course 258 and 259 each have overlapping URL pairs; no redirect or deletion is approved. Course 260 remains split by study-guide vs practice-question intent. The official AIOU soft-books search page is identified, but the actual book text has not yet been retrieved. Accordingly, answer review is an initial technical/editorial review, not a final AIOU syllabus-alignment certification.
+
+Publication readiness is updated: all three course topics have completed an initial answer-level audit; official book reconciliation and (for 258/259) subject/lab-safety review remain required before final replacement HTML is marked publish-ready.
