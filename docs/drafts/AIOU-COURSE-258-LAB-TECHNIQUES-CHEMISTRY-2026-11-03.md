@@ -96,3 +96,12 @@ Repository-only draft; not published. Audit register identifies duplicate course
 ## Exact Blogger target mapping (2026-11-03)
 
 **Provisional preferred existing target:** https://assignmentwaly.blogspot.com/2026/04/258.html. The alternate URL https://assignmentwaly.blogspot.com/2026/04/aiou-code-258-lab-techniques-in.html is a merge candidate. Live inspection found existing 80%+ claims, nonfunctional # download destinations and generic Spring 2026 submission instructions. This draft is not a validated replacement for all detailed chemistry answers. Do not publish until subject-matter review checks every retained answer and practical procedure against current official course material. Do not redirect the alternate URL without GSC, backlink and canonical evidence plus owner approval.
+
+
+## Existing answer preservation map — 2026-11-03
+
+The six-URL answer-by-answer review is recorded in [Course 258/259/260 Answer-by-Answer Audit](../audits/COURSE-258-259-260-ANSWER-BY-ANSWER-AUDIT-2026-11-03.md).
+
+Preserve the useful original Course 258 Q1–Q6 material: apparatus, measuring instruments, filtration, distillation, titration and qualitative identification tests. The alternate URL contains unique Q7 (compound preparation concepts) and Q8 (lab safety); retain only as supervised, non-recipe educational guidance. Correct beaker terminology, instrument ranges, filtration claims, distillation cut-offs, titration stoichiometry and flame-test/safety wording. Keep the short questions after the same corrections.
+
+**Important blockers:** the current AIOU soft-book text has not yet been retrieved. Do not claim official syllabus alignment or publish practical procedures as validated until the current book and instructor safety guidance have been checked. The existing alternate page's deadlines, 80%+ claims, fake tutor persona and `#` downloads must not be carried into the revised content.
