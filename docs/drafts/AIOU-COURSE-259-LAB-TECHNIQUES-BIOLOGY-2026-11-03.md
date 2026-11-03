@@ -110,3 +110,12 @@ Preserve the original Course 259 Q1–Q6 material: microscope parts/care, slide 
 ## New supporting content draft
 
 A separate, original microscope skill article is available at [Biology Microscope Observation & Diagram Guide](RELATED-BIOLOGY-MICROSCOPE-OBSERVATION-GUIDE-2026-11-03.md). Keep it as a distinct supporting article; it focuses on careful observation and safe microscope handling rather than reproducing course-book content.
+
+
+## Official Course 259 book extraction update — 2026-11-03
+
+The exact AIOU PDF at https://online.aiou.edu.pk/LIVE_SITE/SoftBooks/0259.pdf was successfully fetched through an alternate text-extraction route. The extracted front matter identifies the book as **Laboratory Techniques in Biology**, Course 259, Units 1–9, with a 2025 edition/publication marker. Its opening content covers introductory biology, branches of biology and classification; extracted later text includes cell structure and cell division. The PDF text layer has Urdu font-encoding artifacts, so the chapter headings are not yet reliably decoded and must not be guessed.
+
+**Important change to the earlier answer-preservation map:** the existing Blogger Q1–Q8 content about microscopes, slide staining, sterilisation, culture media, enzyme tests and plant sections is NOT yet verified as part of this official book. Treat those answers as candidate supplementary biology explainers until the relevant book pages are located. Do not market them as official Course 259 syllabus answers. The official PDF was not copied or redistributed; only course-alignment notes are recorded here.
+
+**Next verification:** decode the full contents page and locate each existing Q&A concept in the actual book. If a topic is absent, retain it only as clearly labelled supplementary material or move it to a separate general biology practical guide. Chemistry/biology procedures remain subject to qualified safety review.
