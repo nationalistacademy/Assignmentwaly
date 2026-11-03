@@ -105,3 +105,8 @@ The six-URL answer-by-answer review is recorded in [Course 258/259/260 Answer-by
 Preserve the useful original Course 258 Q1–Q6 material: apparatus, measuring instruments, filtration, distillation, titration and qualitative identification tests. The alternate URL contains unique Q7 (compound preparation concepts) and Q8 (lab safety); retain only as supervised, non-recipe educational guidance. Correct beaker terminology, instrument ranges, filtration claims, distillation cut-offs, titration stoichiometry and flame-test/safety wording. Keep the short questions after the same corrections.
 
 **Important blockers:** the current AIOU soft-book text has not yet been retrieved. Do not claim official syllabus alignment or publish practical procedures as validated until the current book and instructor safety guidance have been checked. The existing alternate page's deadlines, 80%+ claims, fake tutor persona and `#` downloads must not be carried into the revised content.
+
+
+## New supporting content draft
+
+A separate, original practical-record guide is available at [Chemistry Practical Record & Observation Guide](RELATED-CHEMISTRY-PRACTICAL-RECORD-GUIDE-2026-11-03.md). Keep it as a distinct supporting article; it explains how to record real observations and calculations and does not duplicate the course Q&A page or provide unsupervised experiment instructions.
