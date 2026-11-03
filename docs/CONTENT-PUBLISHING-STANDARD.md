@@ -106,3 +106,24 @@ A page is ready for review only when:
 - Tables and numbered steps do not leak styles or counters into the Blogger theme.
 - Mobile layout, accessibility, source links, disclaimer and copy quality have been checked.
 - The PR records tests, limitations, unresolved facts and confirms that live Blogger was not changed.
+
+## 12. SEO metadata, GEO answers and length discipline
+
+- Prepare a separate SEO metadata pack: title, meta description, existing permalink, one primary query and a few natural secondary queries. Keep it outside the visible Blogger article body.
+- Character ranges are drafting targets, not ranking rules. Aim for a concise meta description, but clarity and accuracy come first.
+- Place the primary query naturally in the title/H1, opening answer and a relevant section. Never force fixed keyword density or repeat phrases to reach a percentage.
+- Answer the main query in the first 2–4 sentences, then explain scope, exceptions, evidence and next steps.
+- Use tables for real comparisons/schedules. Add 4–6 FAQs only when genuine, distinct follow-up questions exist.
+- Length depends on complexity. A 1,500–2,000 word process guide may be useful; never add filler to hit a word count.
+- Never invent statistics, percentages, dates, fees, success rates or guarantees. Use numbers only when supported by primary sources.
+- Suggest image concepts and accurate alt text; never fabricate image URLs or imply an image already exists.
+- Add internal links only after confirming each destination exists and supports the next student task.
+- Prefer official AIOU sources for AIOU process, policy, eligibility, fee and schedule claims.
+
+## 13. Plus UI / Blogger theme component verification
+
+- Do not assume Plus UI v3.7.0 supports a class merely because the theme version is stated. Inspect the actual theme XML/CSS or a rendered live example before using classes such as note, alert, table, details, tabs, button or steps.
+- Record which selectors/components were found and tested. If theme source is unavailable, use the unique-wrapper scoped fallback; do not claim unverified theme compatibility.
+- Keep SEO metadata separate from the Blogger body. Do not add duplicate canonical, robots or structured-data tags to article HTML.
+- Deliver the SEO pack, complete HTML fragment, image suggestions and verified internal-link recommendations as separate editor-facing sections.
+- Repository drafting does not publish to Blogger. Live publication requires separate explicit approval.
