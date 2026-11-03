@@ -62,3 +62,47 @@
 - Confirm existing permalink is preserved and no duplicate page is created.
 - Review the final rendered content for clarity, grammar, accessibility and student usefulness.
 - Record what changed, what was verified, unresolved questions and the fact that live Blogger publication has not occurred.
+
+
+## 9. Reusable page architecture (default for every new or refreshed page)
+
+Use this order where it fits the search intent; omit sections that do not help the reader rather than adding filler.
+
+1. **Source metadata comment:** retain the existing Blogger source URL, title, publication date, update date, labels and author. Never invent metadata.
+2. **One unique wrapper:** use a page-specific class such as `.aw-admission-guide` or `.aw-course-260`. Every CSS selector must begin with that wrapper.
+3. **One visible H1:** descriptive and aligned with the page's actual purpose.
+4. **Editorial meta line:** last checked date, author/team and intended audience. Do not confuse editorial review date with an official update date.
+5. **Answer-first introduction:** explain in 2–4 sentences what the student can do here, who it applies to and the semester/programme scope.
+6. **Important notice (only when needed):** deadline, eligibility, policy or safety caveat with a clear official-source link.
+7. **Contents list:** for long pages only; anchors must match unique section IDs.
+8. **Main answer sections:** use H2 for major questions/tasks and H3 for subtopics. Lead each section with the direct answer, then steps, examples or evidence.
+9. **Useful components:** compact quick-link cards, checklists, responsive comparison tables, numbered steps, examples, diagrams or downloadable resources only where they add real value.
+10. **Official sources:** place source links beside the claims they support. Include source owner/name and checked date for time-sensitive facts.
+11. **FAQs:** answer real follow-up questions not already repeated verbatim in the article.
+12. **Internal next steps:** link only to verified existing Assignmentwaly pages relevant to the student's next task.
+13. **Editorial/disclaimer note:** independent-site statement and a concise correction route where appropriate.
+
+## 10. Dark mode, contrast and theme isolation rules
+
+- Define page colors as CSS custom properties on the unique wrapper; provide a readable light palette and dark overrides.
+- Support the actual Blogger theme's dark-mode class/attribute after inspecting the live theme. Also use `prefers-color-scheme` only as a fallback; do not assume every Blogger theme uses the operating-system preference.
+- Body text must remain comfortably readable; muted text must still have sufficient contrast. Links need a distinct color and visible keyboard focus.
+- Do not hard-code dark text on light-only cards, tables or callouts. Use the wrapper's text, surface, border and muted tokens.
+- Scope every rule: never write global `body`, `h1`, `h2`, `table`, `td`, `a`, `ol`, `li`, `.grid`, `.note` or generic class selectors in a page fragment.
+- Avoid generic names likely to collide with the Blogger theme; prefer page-specific wrapper and component names.
+- Reset ordered-list numbering only inside the component that owns it. Do not alter global list counters, marker styles or theme navigation lists.
+- Tables must be inside a wrapper with horizontal scrolling, keyboard focus and a descriptive accessible label when appropriate. Keep row striping scoped to that table.
+- Do not use broad selectors such as `table tr:nth-child(even)` outside the unique wrapper. A table must never change the theme's header, sidebar, footer or other widgets.
+- Test light and dark mode, narrow mobile width, keyboard focus, long URLs, Urdu/English mixed text and table overflow before the PR.
+
+## 11. Standard content quality gate
+
+A page is ready for review only when:
+- The page answers one clear student intent without keyword stuffing.
+- All time-sensitive facts have current primary-source support and a visible checked date.
+- The existing permalink is preserved and internal links are verified.
+- HTML is fragment-only, semantic and valid; IDs are unique and heading levels are logical.
+- CSS is fully scoped and the page remains readable in light/dark mode.
+- Tables and numbered steps do not leak styles or counters into the Blogger theme.
+- Mobile layout, accessibility, source links, disclaimer and copy quality have been checked.
+- The PR records tests, limitations, unresolved facts and confirms that live Blogger was not changed.
