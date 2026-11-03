@@ -106,3 +106,8 @@ The six-URL answer-by-answer review is recorded in [Course 258/259/260 Answer-by
 Preserve the eight original practice-question themes and useful short questions on computer types, hardware/software, CPU and memory, internet history, WWW/browsers/search engines, email, office applications and cybersecurity. Complete the currently unfinished MS Office answer. Correct the RAM GHz claim, ROM/BIOS oversimplification, internet/Web dates, computer-category taxonomy, malformed tables and password advice. Preserve the separate study guide's four broad learning prompts (computer block diagram, software types, internet services, ICT in distance education) as sample revision prompts only.
 
 **Important blockers:** the eight-unit syllabus, topic weightages, 5-year paper analysis and named citations on the study-guide page have not been verified against the official AIOU book and must not be represented as official. Obtain the current soft book before writing a course-specific unit outline. Remove score guarantees, invented references, contradictory dates and placeholder downloads.
+
+
+## New supporting content draft
+
+A separate, original digital-literacy article is available at [Digital Study Skills & Online Safety](RELATED-DIGITAL-STUDY-SAFETY-GUIDE-2026-11-03.md). Keep it distinct from the Course 260 question-answer and practice-paper intent; it covers file organisation, backups, account safety and responsible sharing.
