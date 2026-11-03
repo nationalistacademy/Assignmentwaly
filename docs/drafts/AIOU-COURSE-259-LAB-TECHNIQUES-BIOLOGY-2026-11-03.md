@@ -105,3 +105,8 @@ The six-URL answer-by-answer review is recorded in [Course 258/259/260 Answer-by
 Preserve the original Course 259 Q1–Q6 material: microscope parts/care, slide preparation and staining, onion vs epithelial cells, sterilisation concepts, culture-media comparison and enzyme-test principles. The alternate URL adds Q7 (plant cross-sections/stomata) and Q8 (biology lab safety); retain those unique themes after book and safety review. Resolve the cheek-cell vs eyelid-cell wording mismatch; correct the Leeuwenhoek short question; distinguish sterilisation from disinfection; correct the PDA/MacConkey media uses; and keep enzyme/culture content strictly within supervised lab safety.
 
 **Important blockers:** exact AIOU soft-book alignment and a qualified biology/lab-safety review are still pending. Do not publish detailed culturing or enzyme-test procedures as home activities. Remove 80%+ claims, unverified dates and fake `#` downloads.
+
+
+## New supporting content draft
+
+A separate, original microscope skill article is available at [Biology Microscope Observation & Diagram Guide](RELATED-BIOLOGY-MICROSCOPE-OBSERVATION-GUIDE-2026-11-03.md). Keep it as a distinct supporting article; it focuses on careful observation and safe microscope handling rather than reproducing course-book content.
