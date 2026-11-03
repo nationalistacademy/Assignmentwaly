@@ -120,10 +120,27 @@ A page is ready for review only when:
 - Add internal links only after confirming each destination exists and supports the next student task.
 - Prefer official AIOU sources for AIOU process, policy, eligibility, fee and schedule claims.
 
-## 13. Plus UI / Blogger theme component verification
+## 13. Verified Plus UI v3.7.0 native components
 
-- Do not assume Plus UI v3.7.0 supports a class merely because the theme version is stated. Inspect the actual theme XML/CSS or a rendered live example before using classes such as note, alert, table, details, tabs, button or steps.
-- Record which selectors/components were found and tested. If theme source is unavailable, use the unique-wrapper scoped fallback; do not claim unverified theme compatibility.
-- Keep SEO metadata separate from the Blogger body. Do not add duplicate canonical, robots or structured-data tags to article HTML.
-- Deliver the SEO pack, complete HTML fragment, image suggestions and verified internal-link recommendations as separate editor-facing sections.
-- Repository drafting does not publish to Blogger. Live publication requires separate explicit approval.
+The repository theme source `Blogger Template/Assignmentwaly.xml` identifies itself as Plus UI v3.7.0. Its CSS was inspected on 4 November 2026. The following selectors are present in that file:
+
+- `.note` for an informational note; `.note.wr` is the warning variant.
+- `.alert.info`, `.alert.warning`, `.alert.success`, and `.alert.error`.
+- `.table` as a **wrapper around a real HTML table**; supported variants include `.primary`, `.warning`, `.success`, `.error`, `.stripped`, `.hovered`, and `.full`. Use `<div class="table primary stripped hovered"><table>...</table></div>`; do not put the `table` class on the HTML `<table>` element.
+- `details.sp` and `details.ac` for native disclosure/accordion content.
+- `blockquote.s1` for a styled quotation.
+- `.button` for links styled as buttons; use a real `<a href="...">Button label</a>` for navigation.
+- `.steps` for an ordered process list.
+- `.tabs` exists, but its markup is more complex and requires the theme's expected child structure. Avoid tabs unless the exact structure is confirmed from the theme source and keyboard/mobile behavior is checked.
+
+### Rules for page refreshes
+- Prefer the theme-native classes above and remove page-level `<style>` blocks, inline color declarations and custom layout CSS when the same job can be done with semantic HTML and a verified native component.
+- Do not assume the theme provides arbitrary card/grid classes such as `.grid`, `.tile`, `.stats-grid`, or `.faq-item`. Convert those to semantic lists, tables or `details.ac` accordions, or retain a page-specific scoped fallback only when necessary and documented.
+- Keep the existing page wrapper if useful for structure, but do not attach custom CSS to it merely to restyle typography, colors or spacing.
+- Do not remove or rewrite existing substantive information, downloadable links, image URLs, source metadata or permalink as part of a visual migration without a content review.
+- Existing claims about users served, success rates, question-match percentages, marks weightage or expert verification must be removed or supported by reliable evidence; do not preserve unsupported marketing statistics.
+- Verify internal Blogger destinations from the existing page source metadata or live page before linking.
+- After each batch, check HTML nesting, IDs, link destinations, empty/placeholder links, no script/style tags in the migrated fragment, and no inline styles. A page can retain scripts only where they are required, reviewed and explicitly documented.
+- Theme source verification does not replace a rendered Blogger preview. Record that light/dark and mobile visual testing remains outstanding unless actually performed.
+- Deliver SEO metadata separately from the visible article body. Preserve the Blogger permalink and source metadata.
+- Repository changes remain drafts. Never publish to Blogger or change the live theme without separate approval.
