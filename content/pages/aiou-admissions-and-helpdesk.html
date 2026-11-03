@@ -3,30 +3,65 @@
 -->
 <div class="aiou-admission-guide">
 <style>
-.aiou-admission-guide{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.75;color:#334155;max-width:100%;overflow-wrap:anywhere}
-.aiou-admission-guide h1{font-size:clamp(1.65rem,4vw,2.15rem);line-height:1.25;color:#173b63;margin:8px 0 14px}
-.aiou-admission-guide h2{font-size:clamp(1.25rem,3vw,1.5rem);line-height:1.35;color:#123451;border-left:4px solid #2673a6;padding-left:12px;margin:32px 0 14px}
-.aiou-admission-guide h3{font-size:1.12rem;color:#1e4a76;margin:22px 0 8px}
+/* All page styles are deliberately scoped to this unique wrapper. */
+.aiou-admission-guide{
+  --aw-text:#263548;--aw-muted:#596b7f;--aw-heading:#173b63;--aw-link:#075b96;
+  --aw-link-hover:#063b64;--aw-border:#d7e1eb;--aw-surface:#ffffff;--aw-soft:#f3f7fb;
+  --aw-row:#f7f9fc;--aw-note:#edf5fb;--aw-note-border:#2876a8;
+  color:var(--aw-text);background:var(--aw-surface);font-family:Arial,Helvetica,sans-serif;
+  font-size:16px;line-height:1.75;max-width:100%;min-width:0;overflow-wrap:anywhere;
+  color-scheme:light;
+}
+.aiou-admission-guide *{box-sizing:border-box;max-width:100%}
+.aiou-admission-guide h1,.aiou-admission-guide h2,.aiou-admission-guide h3{font-family:inherit;font-weight:700}
+.aiou-admission-guide h1{font-size:clamp(1.65rem,4vw,2.15rem);line-height:1.25;color:var(--aw-heading);margin:8px 0 14px}
+.aiou-admission-guide h2{font-size:clamp(1.25rem,3vw,1.5rem);line-height:1.35;color:var(--aw-heading);border-left:4px solid #2876a8;padding-left:12px;margin:32px 0 14px}
+.aiou-admission-guide h3{font-size:1.12rem;line-height:1.4;color:var(--aw-heading);margin:22px 0 8px}
 .aiou-admission-guide p{margin:12px 0}
-.aiou-admission-guide a{color:#155e91;text-decoration:underline;text-underline-offset:2px}
-.aiou-admission-guide a:focus,.aiou-admission-guide a:hover{color:#0c3b60}
-.aiou-admission-guide .meta{font-size:.88rem;color:#64748b;border-bottom:1px solid #e2e8f0;padding-bottom:12px;margin-bottom:20px}
-.aiou-admission-guide .note{background:#f1f6fa;border-left:4px solid #2876a8;padding:14px 16px;border-radius:8px;margin:18px 0}
-.aiou-admission-guide .warning{background:#fff8e8;border-left-color:#d69a24}
+.aiou-admission-guide a{color:var(--aw-link);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
+.aiou-admission-guide a:focus-visible{outline:3px solid #e0a72e;outline-offset:3px;border-radius:3px}
+.aiou-admission-guide a:hover{color:var(--aw-link-hover)}
+.aiou-admission-guide .meta,.aiou-admission-guide .small{font-size:.9rem;color:var(--aw-muted)}
+.aiou-admission-guide .meta{border-bottom:1px solid var(--aw-border);padding-bottom:12px;margin-bottom:20px}
+.aiou-admission-guide .note{background:var(--aw-note);border:1px solid var(--aw-border);border-left:4px solid var(--aw-note-border);color:var(--aw-text);padding:14px 16px;border-radius:8px;margin:18px 0}
+.aiou-admission-guide .warning{background:#fff7e6;border-left-color:#b77912;color:#513b16}
 .aiou-admission-guide .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px;margin:18px 0}
-.aiou-admission-guide .tile{border:1px solid #dbe5ee;border-radius:10px;padding:15px;background:#fff}
-.aiou-admission-guide .tile strong{display:block;color:#173b63;margin-bottom:5px}
-.aiou-admission-guide .table-wrap{width:100%;overflow-x:auto;margin:16px 0;border:1px solid #dbe5ee;border-radius:8px}
-.aiou-admission-guide table{width:100%;border-collapse:collapse;min-width:520px}
-.aiou-admission-guide th{background:#173b63;color:#fff;text-align:left;padding:11px}
-.aiou-admission-guide td{padding:11px;border-top:1px solid #e2e8f0;vertical-align:top}
-.aiou-admission-guide tbody tr:nth-child(even){background:#f7fafc}
-.aiou-admission-guide .toc{background:#f7fafc;border:1px solid #e2e8f0;border-radius:10px;padding:14px 18px}
+.aiou-admission-guide .tile{min-width:0;border:1px solid var(--aw-border);border-radius:10px;padding:15px;background:var(--aw-surface);color:var(--aw-text)}
+.aiou-admission-guide .tile strong{display:block;color:var(--aw-heading);margin-bottom:5px}
+.aiou-admission-guide .table-wrap{width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;margin:16px 0;border:1px solid var(--aw-border);border-radius:8px;background:var(--aw-surface)}
+.aiou-admission-guide table{width:100%;border-collapse:collapse;min-width:520px;margin:0;background:var(--aw-surface);color:var(--aw-text)}
+.aiou-admission-guide th{background:#173b63;color:#fff;text-align:left;padding:11px;border:0}
+.aiou-admission-guide td{padding:11px;border-top:1px solid var(--aw-border);vertical-align:top;color:var(--aw-text);background:transparent}
+.aiou-admission-guide tbody tr:nth-child(even){background:var(--aw-row)}
+.aiou-admission-guide .toc{background:var(--aw-soft);border:1px solid var(--aw-border);border-radius:10px;padding:14px 18px;color:var(--aw-text)}
 .aiou-admission-guide .toc ul{margin:8px 0 0;padding-left:22px}
 .aiou-admission-guide .toc li{margin:5px 0}
-.aiou-admission-guide .steps li{margin:9px 0;padding-left:3px}
-.aiou-admission-guide .small{font-size:.9rem;color:#64748b}
-@media(max-width:600px){.aiou-admission-guide{font-size:15.5px}.aiou-admission-guide .tile{padding:13px}}
+.aiou-admission-guide ol.steps{list-style:none;counter-reset:aw-step;margin:16px 0;padding:0}
+.aiou-admission-guide ol.steps>li{counter-increment:aw-step;position:relative;list-style:none;margin:10px 0;padding:12px 14px 12px 52px;border:1px solid var(--aw-border);border-radius:9px;background:var(--aw-soft);color:var(--aw-text)}
+.aiou-admission-guide ol.steps>li::before{content:counter(aw-step);position:absolute;left:13px;top:12px;display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#173b63;color:#fff;font-weight:700;font-size:.9rem;line-height:1}
+.aiou-admission-guide ul:not(.toc ul),.aiou-admission-guide ol:not(.steps){padding-left:1.5rem}
+.aiou-admission-guide li{margin:7px 0}
+.aiou-admission-guide strong{color:inherit}
+@media (prefers-color-scheme:dark){
+  html:not([data-theme="light"]) .aiou-admission-guide,body:not([data-theme="light"]) .aiou-admission-guide{
+    --aw-text:#e5edf6;--aw-muted:#b5c3d2;--aw-heading:#f0f6ff;--aw-link:#8cc8ff;
+    --aw-link-hover:#c0e2ff;--aw-border:#3b4b5e;--aw-surface:#182332;--aw-soft:#202f40;
+    --aw-row:#223246;--aw-note:#20384d;--aw-note-border:#65b5ed;color-scheme:dark;
+  }
+}
+:where(html[data-theme="dark"],body[data-theme="dark"],html.dark,body.dark,body.dark-mode,.dark-mode) .aiou-admission-guide{
+  --aw-text:#e5edf6;--aw-muted:#b5c3d2;--aw-heading:#f0f6ff;--aw-link:#8cc8ff;
+  --aw-link-hover:#c0e2ff;--aw-border:#3b4b5e;--aw-surface:#182332;--aw-soft:#202f40;
+  --aw-row:#223246;--aw-note:#20384d;--aw-note-border:#65b5ed;color-scheme:dark;
+}
+:where(html[data-theme="dark"],body[data-theme="dark"],html.dark,body.dark,body.dark-mode,.dark-mode) .aiou-admission-guide .warning{
+  background:#3a3020;color:#ffedc2;border-left-color:#e6b64f;
+}
+@media(max-width:600px){
+  .aiou-admission-guide{font-size:15.5px}
+  .aiou-admission-guide .tile{padding:13px}
+  .aiou-admission-guide .table-wrap{border-radius:6px}
+}
 </style>
 
 <h1>AIOU Admissions 2026: Online Application, Eligibility, Official Dates &amp; Helpdesk</h1>
@@ -62,7 +97,7 @@
 
 <h2 id="dates">AIOU Autumn 2026 admission dates</h2>
 <p>AIOU publishes different schedule rows for different programme groups. The university's online admission calendar lists the following standard Autumn windows:</p>
-<div class="table-wrap"><table>
+<div class="table-wrap" role="region" aria-label="AIOU Autumn 2026 admission schedule" tabindex="0"><table>
 <thead><tr><th>Programme group</th><th>Published admission period</th><th>What to check</th></tr></thead>
 <tbody>
 <tr><td>SSC / HSSC (for example, Matric and Intermediate groups)</td><td>15 July – 4 September 2026</td><td>Check the relevant programme advertisement for any extension or separate notice.</td></tr>
