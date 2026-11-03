@@ -96,3 +96,12 @@ Repository-only draft; not published. The 190-URL audit identifies duplicate Cou
 ## Exact Blogger target mapping (2026-11-03)
 
 **Provisional preferred existing target:** https://assignmentwaly.blogspot.com/2026/04/259.html. The alternate URL https://assignmentwaly.blogspot.com/2026/04/aiou-code-259-lab-techniques-in-biology.html is a merge candidate. Live inspection found 80%+ claims, nonfunctional # download destinations and generic Spring 2026 submission instructions. The selected page contains detailed biological practical content that requires qualified accuracy and safety review. This general draft does not validate those answers or experimental procedures. Do not publish until review is complete; do not redirect the alternate without GSC, backlink and canonical evidence plus owner approval.
+
+
+## Existing answer preservation map — 2026-11-03
+
+The six-URL answer-by-answer review is recorded in [Course 258/259/260 Answer-by-Answer Audit](../audits/COURSE-258-259-260-ANSWER-BY-ANSWER-AUDIT-2026-11-03.md).
+
+Preserve the original Course 259 Q1–Q6 material: microscope parts/care, slide preparation and staining, onion vs epithelial cells, sterilisation concepts, culture-media comparison and enzyme-test principles. The alternate URL adds Q7 (plant cross-sections/stomata) and Q8 (biology lab safety); retain those unique themes after book and safety review. Resolve the cheek-cell vs eyelid-cell wording mismatch; correct the Leeuwenhoek short question; distinguish sterilisation from disinfection; correct the PDA/MacConkey media uses; and keep enzyme/culture content strictly within supervised lab safety.
+
+**Important blockers:** exact AIOU soft-book alignment and a qualified biology/lab-safety review are still pending. Do not publish detailed culturing or enzyme-test procedures as home activities. Remove 80%+ claims, unverified dates and fake `#` downloads.
