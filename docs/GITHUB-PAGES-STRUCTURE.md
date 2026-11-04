@@ -1,30 +1,41 @@
-# GitHub Pages structure and Blogger connection
+# Assignmentwaly GitHub Pages structure and Blogger connection
 
 **Repository:** `nationalistacademy/Assignmentwaly`  
-**Working branch:** `feature/complete-linked-student-pages`  
+**Scope-correction branch:** `fix/assignmentwaly-scope-separation`  
 **Companion site:** `https://nationalistacademy.github.io/Assignmentwaly/`  
 **Blogger source:** `https://assignmentwaly.blogspot.com/`
 
-## Roles
+## Product boundary
 
-Blogger remains the publishing home for the existing posts and static pages. GitHub Pages is the companion website for free tools, standalone evergreen guides, navigation and discovery. Do not publish duplicate articles to both platforms merely to create extra search URLs.
+Assignmentwaly is exclusively an AIOU assignment and student assignment-guidance resource.
 
-## Current additions
+Included:
+- Programme-wise and course-code assignment directories.
+- Solved-assignment explanations and original-answer preparation guidance.
+- Assignment writing, formatting, presentation and referencing.
+- Academic integrity, tutor-marked assignment and submission guidance.
+- Assignment-related student FAQs and site policy pages.
 
-- Homepage navigation now exposes Student Guides and Content Library.
-- `guides/index.html` is the directory for standalone guides.
-- Five detailed guides are rendered as full standalone HTML pages in `guides/`, sourced from the reviewed Blogger page fragments in `content/pages/`.
-- `library.html` indexes the 149 captured posts and 41 static pages in the Blogger manifest and links each title to its original Blogger URL.
-- `sitemap.xml` lists the GitHub Pages homepage, directory, library, five guides and Assignment Builder.
-- `robots.txt` points crawlers to that sitemap.
-- `scripts/check-linked-pages.mjs` checks required files, homepage links, guide count, 190 library entries and sitemap coverage.
+Excluded — these belong to the separate AIOU Coaching project:
+- Guess papers and exam preparation.
+- Admissions pages and workflows.
+- Assignment Builder and interactive tools.
+- LMS, MCQ practice and mock tests.
 
-## Content and canonical policy
+## Current correction work
 
-The original Blogger URL remains the source URL for each Blogger post/page. The standalone GitHub guides are a curated companion edition for the five core guides, with canonical tags pointing to the GitHub Pages guide URL. Before expanding copies to additional Blogger content, check that the destination is genuinely useful as a standalone tool or guide and that its wording, metadata, links and canonical strategy are intentional.
+- Homepage rewritten around assignment discovery and writing guidance.
+- Guide directory rewritten to include programme, formatting, integrity and submission sections.
+- Sitemap reduced to the homepage and assignment-guide directory until additional in-scope pages are audited.
+- Legacy guess-paper, original-books, Assignment Builder and 190-entry content-library pages are retained as repository history but marked `noindex, nofollow` and omitted from the curated sitemap.
+- Automated scope checks are being updated to reject links and promotions for excluded categories.
 
-The searchable content library is a navigation layer, not 190 new duplicated GitHub articles. The repository's archive files remain the backup snapshot for the source content. This avoids automatically publishing old, date-sensitive or unreviewed material as fresh standalone pages.
+## Blogger and archive policy
 
-## Deployment and safety boundary
+Blogger remains the publishing platform for existing posts and pages. The repository's export of 149 posts and 41 static pages is a historical backup and URL inventory, not a public navigation directory. Each URL must be reviewed for Assignmentwaly relevance before migration or indexing. Do not delete archive snapshots.
 
-The Pages workflow validates both the original site and the new linked-page structure. The branch is submitted for review through a draft pull request. It does not alter Blogger live posts, Blogger theme, DNS, Search Console, AdSense or any production settings. GitHub Pages will not update from this feature branch unless it is merged to the configured deployment branch.
+No live Blogger posts, theme, DNS, Search Console, AdSense or production settings are changed by this branch.
+
+## Validation and release
+
+Run both repository checks locally and confirm the GitHub Actions deployment workflow succeeds after merge. Verify the deployed homepage, guide links, sitemap and robots file. Do not claim a release based solely on a merged pull request.
