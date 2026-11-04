@@ -33,6 +33,9 @@ jobs:
       - name: Run static site smoke checks
         run: node scripts/check-static-site.mjs
 
+      - name: Check linked guides and content library
+        run: node scripts/check-linked-pages.mjs
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
