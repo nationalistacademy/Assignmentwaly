@@ -10,6 +10,15 @@ Assignmentwaly is the assignment-focused publishing site in a three-site setup. 
 - Link each relevant article to a useful free companion tool hosted on AIOU Coaching.
 - Mobile-first accessibility, privacy-conscious browser tools, and human editorial approval.
 
+## GitHub Pages content structure
+
+- `index.html` is the GitHub Pages home page and links to the student guide directory and content library.
+- `guides/` contains standalone HTML versions of five core AIOU guides: guess papers, Matric-to-Master revision directory, original books, B.Ed assignments and BS assignments.
+- `library.html` is a searchable directory of all 149 captured Blogger posts and 41 static pages (190 entries total), linking to their original published URLs.
+- `archive/blogger-export/` preserves the source HTML snapshots. The content library is a discovery index; historical Blogger URLs remain the canonical published versions unless a separate migration is approved.
+- `sitemap.xml` and `robots.txt` describe the GitHub Pages companion site.
+- The Pages workflow runs both the existing static-site smoke check and the linked-pages check before deployment.
+
 ## Current working features
 - Responsive homepage at `index.html` with clear links to the AIOU Coaching tools hub.
 - Assignment article links, tool discovery cards, mobile navigation and scroll progress indicator.
