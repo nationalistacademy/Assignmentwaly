@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nationalistacademy.github.io/Assignmentwaly/sitemap.xml
